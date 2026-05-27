@@ -1,0 +1,306 @@
+[21:31:17] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.2
+[21:31:20] [main/WARN]: Warnings were found!
+ - Mod 'Debugify' (debugify) 1.21.11+1.1 recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+[21:31:20] [main/INFO]: Loading 156 mods:
+	- almanac 1.6.2
+	- c2me 0.3.6.0.0+1.21.11
+	   |-- c2me-base 0.3.6.0.0+1.21.11
+	   |-- c2me-client-uncapvd 0.3.6.0.0+1.21.11
+	   |-- c2me-fixes-chunkio-threading-issues 0.3.6.0.0+1.21.11
+	   |-- c2me-fixes-general-threading-issues 0.3.6.0.0+1.21.11
+	   |-- c2me-fixes-worldgen-threading-issues 0.3.6.0.0+1.21.11
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.3.6.0.0+1.21.11
+	   |-- c2me-notickvd 0.3.6.0.0+1.21.11
+	   |-- c2me-opts-allocs 0.3.6.0.0+1.21.11
+	   |-- c2me-opts-chunkio 0.3.6.0.0+1.21.11
+	   |-- c2me-opts-dfc 0.3.6.0.0+1.21.11
+	   |-- c2me-opts-math 0.3.6.0.0+1.21.11
+	   |-- c2me-opts-scheduling 0.3.6.0.0+1.21.11
+	   |-- c2me-opts-worldgen-general 0.3.6.0.0+1.21.11
+	   |-- c2me-opts-worldgen-vanilla 0.3.6.0.0+1.21.11
+	   |-- c2me-rewrites-chunk-serializer 0.3.6.0.0+1.21.11
+	   |-- c2me-rewrites-chunk-system 0.3.6.0.0+1.21.11
+	   |-- c2me-rewrites-chunkio 0.3.6.0.0+1.21.11
+	   |-- c2me-server-utils 0.3.6.0.0+1.21.11
+	   |-- c2me-threading-lighting 0.3.6.0.0+1.21.11
+	   |-- com_electronwill_night-config_core 3.6.5
+	   |-- com_electronwill_night-config_toml 3.6.5
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- io_reactivex_rxjava3_rxjava 3.1.12
+	   |-- mixinsquared 0.2.0-beta.6
+	   |-- net_objecthunter_exp4j 0.4.8
+	   |-- org_jctools_jctools-core 4.0.5
+	   \-- org_reactivestreams_reactive-streams 1.0.4
+	- chunky 1.4.55
+	- cloth-config 21.11.153
+	   \-- cloth-basic-math 0.6.1
+	- debugify 1.21.11+1.1
+	- enchanter_fix 1.8
+	- fabric-api 0.141.3+1.21.11
+	   |-- fabric-api-base 1.0.5+4ebb5c083e
+	   |-- fabric-api-lookup-api-v1 1.6.114+20dc27073e
+	   |-- fabric-biome-api-v1 17.1.1+4fc5413f3e
+	   |-- fabric-block-api-v1 1.1.10+4ebb5c083e
+	   |-- fabric-block-view-api-v2 1.0.39+4ebb5c083e
+	   |-- fabric-command-api-v2 2.4.7+6b42a6003e
+	   |-- fabric-content-registries-v0 10.2.14+4fc5413f3e
+	   |-- fabric-convention-tags-v1 2.1.55+7f945d5b3e
+	   |-- fabric-convention-tags-v2 2.17.3+8ef948ba3e
+	   |-- fabric-crash-report-info-v1 0.3.23+4ebb5c083e
+	   |-- fabric-data-attachment-api-v1 1.8.47+eed0806f3e
+	   |-- fabric-data-generation-api-v1 23.4.0+69974c4e3e
+	   |-- fabric-dimensions-v1 4.0.28+4fc5413f3e
+	   |-- fabric-entity-events-v1 3.1.1+1d0ab4303e
+	   |-- fabric-events-interaction-v0 4.1.0+3b89ecf63e
+	   |-- fabric-game-rule-api-v1 2.0.3+4fc5413f3e
+	   |-- fabric-item-api-v1 11.5.20+d0c46b9e3e
+	   |-- fabric-item-group-api-v1 4.2.36+4fc5413f3e
+	   |-- fabric-key-binding-api-v1 1.1.7+4fc5413f3e
+	   |-- fabric-lifecycle-events-v1 2.6.15+4ebb5c083e
+	   |-- fabric-loot-api-v2 3.0.73+3f89f5a53e
+	   |-- fabric-loot-api-v3 2.0.20+78c8b4663e
+	   |-- fabric-message-api-v1 6.1.12+4ebb5c083e
+	   |-- fabric-model-loading-api-v1 6.0.15+4fc5413f3e
+	   |-- fabric-networking-api-v1 5.1.5+ae1e07683e
+	   |-- fabric-object-builder-api-v1 21.1.39+4fc5413f3e
+	   |-- fabric-particles-v1 4.2.11+4fc5413f3e
+	   |-- fabric-recipe-api-v1 8.2.3+4ebb5c083e
+	   |-- fabric-registry-sync-v0 6.2.5+1718722b3e
+	   |-- fabric-renderer-api-v1 8.0.3+f4ffd2e53e
+	   |-- fabric-renderer-indigo 5.0.3+f4ffd2e53e
+	   |-- fabric-rendering-fluids-v1 3.1.43+4ebb5c083e
+	   |-- fabric-rendering-v1 16.2.10+0290ad933e
+	   |-- fabric-resource-conditions-api-v1 5.0.35+4fc5413f3e
+	   |-- fabric-resource-loader-v0 3.3.4+4fc5413f3e
+	   |-- fabric-resource-loader-v1 1.0.10+78c8b4663e
+	   |-- fabric-screen-api-v1 3.1.7+4ebb5c083e
+	   |-- fabric-screen-handler-api-v1 1.3.161+4fc5413f3e
+	   |-- fabric-serialization-api-v1 1.0.5+4ebb5c083e
+	   |-- fabric-sound-api-v1 1.0.51+4fc5413f3e
+	   |-- fabric-tag-api-v1 1.2.20+4fc5413f3e
+	   |-- fabric-transfer-api-v1 6.0.25+4fc5413f3e
+	   \-- fabric-transitive-access-wideners-v1 7.1.0+014c8cec3e
+	- fabric-language-kotlin 1.13.10+kotlin.2.3.20
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.3.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.3.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.3.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.3.20
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.32.1
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.7.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.10.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.10.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.10.0
+	- fabricloader 0.18.2
+	   \-- mixinextras 0.5.0
+	- floodgate 2.2.6-SNAPSHOT
+	   |-- aopalliance_aopalliance 1.0
+	   |-- cloud 2.0.0-beta.15
+	   |    |-- io_leangen_geantyref_geantyref 1.3.15
+	   |    |-- org_incendo_cloud-brigadier 2.0.0-beta.14
+	   |    |-- org_incendo_cloud-core 2.0.0
+	   |    |-- org_incendo_cloud-minecraft-modded-common-fabric-repack 2.0.0-beta.15
+	   |    \-- org_incendo_cloud-services 2.0.0
+	   |-- com_google_guava_failureaccess 1.0.1
+	   |-- fabric-permissions-api-v0 0.6.1
+	   |-- jakarta_inject_jakarta_inject-api 2.0.1
+	   |-- javax_inject_javax_inject 1
+	   |-- org_geysermc_cumulus_cumulus 1.1.2
+	   |-- org_geysermc_event_events 1.1-SNAPSHOT
+	   |-- org_geysermc_geyser_common_unshaded 2.2.1-SNAPSHOT
+	   |-- org_java-websocket_java-websocket 1.5.2
+	   \-- org_lanternpowered_lmbda 2.0.0
+	- fsit 2.9.1+mc1.21.11
+	- geyser-fabric 2.9.6-SNAPSHOT
+	   |-- cloud 2.0.0-beta.15
+	   |    |-- io_leangen_geantyref_geantyref 1.3.15
+	   |    |-- org_incendo_cloud-brigadier 2.0.0-beta.14
+	   |    |-- org_incendo_cloud-core 2.0.0
+	   |    |-- org_incendo_cloud-minecraft-modded-common-fabric-repack 2.0.0-beta.15
+	   |    \-- org_incendo_cloud-services 2.0.0
+	   |-- com_google_code_findbugs_jsr305 3.0.2
+	   |-- com_google_errorprone_error_prone_annotations 2.27.0
+	   |-- com_google_j2objc_j2objc-annotations 1.3
+	   |-- com_nukkitx_natives 1.0.3
+	   |-- fabric-permissions-api-v0 0.6.1
+	   |-- io_airlift_aircompressor 0.27
+	   |-- io_netty_netty-codec-haproxy 4.2.7
+	   |-- net_jodah_expiringmap 0.5.10
+	   |-- net_kyori_adventure-api 4.25.0
+	   |-- net_kyori_adventure-key 4.25.0
+	   |-- net_kyori_adventure-nbt 4.25.0
+	   |-- net_kyori_adventure-text-serializer-commons 4.25.0
+	   |-- net_kyori_adventure-text-serializer-gson 4.25.0
+	   |-- net_kyori_adventure-text-serializer-json 4.25.0
+	   |-- net_kyori_adventure-text-serializer-json-legacy-impl 4.25.0
+	   |-- net_kyori_adventure-text-serializer-legacy 4.25.0
+	   |-- net_kyori_adventure-text-serializer-plain 4.25.0
+	   |-- net_kyori_examination-api 1.3.0
+	   |-- net_kyori_examination-string 1.3.0
+	   |-- net_kyori_option 1.1.0
+	   |-- net_lenni0451_commons_gson 1.9.0
+	   |-- net_lenni0451_commons_httpclient 1.9.0
+	   |-- net_raphimc_minecraftauth 5.0.0
+	   |-- org_bitbucket_b_c_jose4j 0.9.6
+	   |-- org_bstats_bstats-base 3.1.0
+	   |-- org_cloudburstmc_math_api 2.0
+	   |-- org_cloudburstmc_math_immutable 2.0
+	   |-- org_cloudburstmc_nbt 3.0.4
+	   |-- org_geysermc_api_base-api 1.0.2
+	   |-- org_geysermc_cumulus_cumulus 1.1.2
+	   |-- org_geysermc_event_events 1.1-SNAPSHOT
+	   |-- org_jetbrains_annotations 24.0.0
+	   |-- org_lanternpowered_lmbda 2.0.0
+	   \-- org_yaml_snakeyaml 2.2
+	- java 21
+	- krypton 0.2.10
+	   \-- com_velocitypowered_velocity-native 3.4.0-SNAPSHOT
+	- leashmod 1.2.5+1.21.11
+	- letmedespawn 1.6.2
+	- lithium 0.21.4+mc1.21.11
+	- minecraft 1.21.11
+	- scalablelux 0.1.6+fabric.c25518a
+	- skinrestorer 2.7.0+1.21.11-fabric
+	   \-- org_mineskin_java-client 3.2.1-SNAPSHOT
+	- threadtweak 0.1.8+mc1.21.11
+	- vmp 0.2.0+beta.7.227+1.21.11
+	   \-- com_ibm_async_asyncutil 0.1.0
+	- yet_another_config_lib_v3 3.8.2+1.21.11-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.12.0
+	   |-- com_twelvemonkeys_common_common-io 3.12.0
+	   |-- com_twelvemonkeys_common_common-lang 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+[21:31:21] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/ilovemygf2/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[21:31:21] [main/INFO]: Compatibility level set to JAVA_21
+[21:31:22] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[21:31:22] [main/INFO]: Global Executor Parallelism: 3 configured, 3 evaluated, 3 default evaluated
+[21:31:22] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[21:31:22] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[21:31:22] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[21:31:22] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[21:31:22] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[21:31:22] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[21:31:22] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[21:31:22] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[21:31:22] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[21:31:22] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[21:31:22] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[21:31:22] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[21:31:22] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[21:31:22] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[21:31:22] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[21:31:22] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[21:31:22] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[21:31:22] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[21:31:22] [main/INFO]: Loaded configuration file for Lithium: 171 options available, 0 override(s) found.
+[21:31:22] [main/WARN]: Reference map 'skinrestorer.refmap.json' for skinrestorer.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:31:22] [main/WARN]: Reference map 'skinrestorer.refmap.json' for skinrestorer.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:31:22] [main/INFO]: Successfully started async appender with [SysOut, ServerGuiConsole, Tracy, File]
+[21:31:22] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:31:22] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:31:23] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[21:31:24] [main/INFO]: ThreadTweak config initialized
+[21:31:31] [main/INFO]: Almanac Fabric config reloaded, cache cleared
+[21:31:31] [main/INFO]: Almanac Fabric config initialized
+[21:31:31] [main/INFO]: Almanac initialized
+[21:31:31] [main/INFO]: Enabled 60 bug fixes: [MC-7569, MC-8187, MC-30391, MC-44654, MC-82263, MC-84661, MC-88371, MC-89146, MC-93018, MC-94054, MC-100991, MC-119754, MC-121706, MC-121903, MC-123450, MC-123605, MC-129909, MC-131562, MC-132878, MC-133218, MC-134110, MC-136249, MC-139041, MC-147659, MC-153010, MC-155509, MC-158900, MC-159283, MC-160095, MC-168573, MC-170462, MC-176806, MC-177381, MC-179072, MC-183990, MC-187100, MC-200418, MC-201374, MC-202637, MC-206922, MC-215530, MC-219981, MC-221257, MC-223153, MC-224729, MC-226961, MC-227008, MC-227337, MC-231743, MC-232869, MC-245394, MC-263999, MC-264285, MC-264979, MC-267125, MC-268617, MC-271899, MC-272431, MC-297837, MC-298066]
+[21:31:31] [main/INFO]: Successfully Debugify'd your game!
+[21:31:31] [main/WARN]: en_ is not a supported Floodgate language.
+[21:31:33] [main/INFO]: Loading extensions...
+[21:31:33] [main/INFO]: Loaded 0 extension(s)
+[21:31:34] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.x.x (Linux x86_64)
+[21:31:34] [main/INFO]: Initialized LeashPlayers
+[21:31:34] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[21:31:34] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[21:31:35] [main/ERROR]: Couldn't load file/Terralith_1.21.11_v2.6.0.zip fabric:overlays metadata: Unknown resource condition key: terralith:config; Unknown resource condition key: terralith:config; Unknown resource condition key: terralith:config; Unknown resource condition key: terralith:config; Unknown resource condition key: terralith:config; Unknown resource condition key: terralith:config; Unknown resource condition key: terralith:config
+[21:31:35] [main/ERROR]: Couldn't load file/lukis-grand-capitals-v1.1.3.zip pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
+[21:31:39] [Worker-Main-3/ERROR]: Couldn't parse data file 'epic:chests/scary' from 'epic:loot_table/chests/scary.json': DataResult.Error['Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain': net.minecraft.class_52@2136989d]
+[21:31:39] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:entities/player@minecraft:loot_table}.pools[1].entries[0]: Missing element player_heads:entities/player of type minecraft:loot_table
+[21:31:41] [main/INFO]: Loaded 1472 recipes
+[21:31:41] [main/ERROR]: Failed to load function stm:silk_touch_effect
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Malformed 'minecraft:enchantments' component: 'Not a number; Failed to get element minecraft:levels missed input: {levels:{"minecraft:silk_touch":1}}' at position 75: ...hantments=<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770)
+	at knot//net.minecraft.class_4014.method_67576(class_4014.java:51)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Malformed 'minecraft:enchantments' component: 'Not a number; Failed to get element minecraft:levels missed input: {levels:{"minecraft:silk_touch":1}}' at position 75: ...hantments=<--[HERE]
+	at knot//net.minecraft.class_2158.method_9195(class_2158.java:80)
+	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	... 7 more
+[21:31:42] [main/ERROR]: Failed to load function stm:fortune_effect
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Can't parse function line 1: 'execute if block ~ ~ ~ air run return fail'
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770)
+	at knot//net.minecraft.class_4014.method_67576(class_4014.java:51)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Caused by: java.lang.IllegalArgumentException: Can't parse function line 1: 'execute if block ~ ~ ~ air run return fail'
+	at knot//net.minecraft.class_8867.method_54421(class_8867.java:49)
+	at knot//net.minecraft.class_2158.method_9195(class_2158.java:75)
+	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	... 7 more
+Caused by: java.lang.IllegalArgumentException: No variables in macro
+	at knot//net.minecraft.class_8873.method_54432(class_8873.java:36)
+	at knot//net.minecraft.class_8867.method_54421(class_8867.java:47)
+	... 10 more
+[21:31:42] [main/INFO]: Loaded 1993 advancements
+[21:31:42] [main/INFO]: Applied 0 biome modifications to 0 of 168 new biomes in 2.068 ms
+[21:31:42] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[21:31:42] [Server thread/INFO]: Loading properties
+[21:31:42] [Server thread/INFO]: Default game type: SURVIVAL
+[21:31:42] [Server thread/INFO]: Generating keypair
+[21:31:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:31:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:31:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:31:42] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:31:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:31:42] [Server thread/INFO]: Preparing level "world"
+[21:31:42] [Server thread/INFO]: Enforcing safe world random access
+[21:31:43] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 886.5 ms
+[21:31:43] [Server thread/INFO]: Changing watch distance to 10
+[21:31:43] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[21:31:44] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 166.3 ms
+[21:31:44] [Server thread/INFO]: Changing watch distance to 10
+[21:31:44] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 10.23 ms
+[21:31:44] [Server thread/INFO]: Changing watch distance to 10
+[21:31:45] [Server thread/INFO]: Loading 0 persistent chunks...
+[21:31:45] [Server thread/INFO]: Preparing spawn area: 100%
+[21:31:45] [Server thread/INFO]: [STDOUT]: [ScalableLux] Lighting scaling is enabled in externally managed mode
+[21:31:45] [Server thread/INFO]: Time elapsed: 32 ms
+[21:31:45] [Server thread/INFO]: Done (2.864s)! For help, type "help"
+[21:31:45] [Server thread/INFO]: Took 96ms to boot Floodgate
+[21:31:46] [Server thread/INFO]: ******************************************
+[21:31:46] [Server thread/INFO]: 
+[21:31:46] [Server thread/INFO]: Loading Geyser version 2.9.6-b1133 (git-master-7ccf9d3)
+[21:31:46] [Server thread/INFO]: 
+[21:31:46] [Server thread/INFO]: ******************************************
+[21:31:56] [GeyserServer-3-1/INFO]: Started Geyser on UDP port 19132
+[21:31:56] [Server thread/INFO]: Done (10.16s)! Run /geyser help for help!
+[21:31:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10719ms or 214 ticks behind
+[21:32:56] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[21:33:18] [Server thread/INFO]: boidoxx[/10.146.226.20:62758] logged in with entity id 254 at (-120.66749692707344, 97.0, 123.81452740794596)
+[21:33:18] [Server thread/INFO]: boidoxx joined the game
+[21:33:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2104ms or 42 ticks behind
+[21:33:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6725ms or 134 ticks behind
+[21:33:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2048ms or 40 ticks behind
