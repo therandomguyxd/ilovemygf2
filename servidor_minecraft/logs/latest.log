@@ -1,306 +1,653 @@
-[21:31:17] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.2
-[21:31:20] [main/WARN]: Warnings were found!
- - Mod 'Debugify' (debugify) 1.21.11+1.1 recommends any version of modmenu, which is missing!
-	 - You should install any version of modmenu for the optimal experience.
-[21:31:20] [main/INFO]: Loading 156 mods:
-	- almanac 1.6.2
-	- c2me 0.3.6.0.0+1.21.11
-	   |-- c2me-base 0.3.6.0.0+1.21.11
-	   |-- c2me-client-uncapvd 0.3.6.0.0+1.21.11
-	   |-- c2me-fixes-chunkio-threading-issues 0.3.6.0.0+1.21.11
-	   |-- c2me-fixes-general-threading-issues 0.3.6.0.0+1.21.11
-	   |-- c2me-fixes-worldgen-threading-issues 0.3.6.0.0+1.21.11
-	   |-- c2me-fixes-worldgen-vanilla-bugs 0.3.6.0.0+1.21.11
-	   |-- c2me-notickvd 0.3.6.0.0+1.21.11
-	   |-- c2me-opts-allocs 0.3.6.0.0+1.21.11
-	   |-- c2me-opts-chunkio 0.3.6.0.0+1.21.11
-	   |-- c2me-opts-dfc 0.3.6.0.0+1.21.11
-	   |-- c2me-opts-math 0.3.6.0.0+1.21.11
-	   |-- c2me-opts-scheduling 0.3.6.0.0+1.21.11
-	   |-- c2me-opts-worldgen-general 0.3.6.0.0+1.21.11
-	   |-- c2me-opts-worldgen-vanilla 0.3.6.0.0+1.21.11
-	   |-- c2me-rewrites-chunk-serializer 0.3.6.0.0+1.21.11
-	   |-- c2me-rewrites-chunk-system 0.3.6.0.0+1.21.11
-	   |-- c2me-rewrites-chunkio 0.3.6.0.0+1.21.11
-	   |-- c2me-server-utils 0.3.6.0.0+1.21.11
-	   |-- c2me-threading-lighting 0.3.6.0.0+1.21.11
-	   |-- com_electronwill_night-config_core 3.6.5
-	   |-- com_electronwill_night-config_toml 3.6.5
-	   |-- com_ibm_async_asyncutil 0.1.0
-	   |-- io_reactivex_rxjava3_rxjava 3.1.12
-	   |-- mixinsquared 0.2.0-beta.6
-	   |-- net_objecthunter_exp4j 0.4.8
-	   |-- org_jctools_jctools-core 4.0.5
-	   \-- org_reactivestreams_reactive-streams 1.0.4
-	- chunky 1.4.55
-	- cloth-config 21.11.153
-	   \-- cloth-basic-math 0.6.1
-	- debugify 1.21.11+1.1
-	- enchanter_fix 1.8
-	- fabric-api 0.141.3+1.21.11
-	   |-- fabric-api-base 1.0.5+4ebb5c083e
-	   |-- fabric-api-lookup-api-v1 1.6.114+20dc27073e
-	   |-- fabric-biome-api-v1 17.1.1+4fc5413f3e
-	   |-- fabric-block-api-v1 1.1.10+4ebb5c083e
-	   |-- fabric-block-view-api-v2 1.0.39+4ebb5c083e
-	   |-- fabric-command-api-v2 2.4.7+6b42a6003e
-	   |-- fabric-content-registries-v0 10.2.14+4fc5413f3e
-	   |-- fabric-convention-tags-v1 2.1.55+7f945d5b3e
-	   |-- fabric-convention-tags-v2 2.17.3+8ef948ba3e
-	   |-- fabric-crash-report-info-v1 0.3.23+4ebb5c083e
-	   |-- fabric-data-attachment-api-v1 1.8.47+eed0806f3e
-	   |-- fabric-data-generation-api-v1 23.4.0+69974c4e3e
-	   |-- fabric-dimensions-v1 4.0.28+4fc5413f3e
-	   |-- fabric-entity-events-v1 3.1.1+1d0ab4303e
-	   |-- fabric-events-interaction-v0 4.1.0+3b89ecf63e
-	   |-- fabric-game-rule-api-v1 2.0.3+4fc5413f3e
-	   |-- fabric-item-api-v1 11.5.20+d0c46b9e3e
-	   |-- fabric-item-group-api-v1 4.2.36+4fc5413f3e
-	   |-- fabric-key-binding-api-v1 1.1.7+4fc5413f3e
-	   |-- fabric-lifecycle-events-v1 2.6.15+4ebb5c083e
-	   |-- fabric-loot-api-v2 3.0.73+3f89f5a53e
-	   |-- fabric-loot-api-v3 2.0.20+78c8b4663e
-	   |-- fabric-message-api-v1 6.1.12+4ebb5c083e
-	   |-- fabric-model-loading-api-v1 6.0.15+4fc5413f3e
-	   |-- fabric-networking-api-v1 5.1.5+ae1e07683e
-	   |-- fabric-object-builder-api-v1 21.1.39+4fc5413f3e
-	   |-- fabric-particles-v1 4.2.11+4fc5413f3e
-	   |-- fabric-recipe-api-v1 8.2.3+4ebb5c083e
-	   |-- fabric-registry-sync-v0 6.2.5+1718722b3e
-	   |-- fabric-renderer-api-v1 8.0.3+f4ffd2e53e
-	   |-- fabric-renderer-indigo 5.0.3+f4ffd2e53e
-	   |-- fabric-rendering-fluids-v1 3.1.43+4ebb5c083e
-	   |-- fabric-rendering-v1 16.2.10+0290ad933e
-	   |-- fabric-resource-conditions-api-v1 5.0.35+4fc5413f3e
-	   |-- fabric-resource-loader-v0 3.3.4+4fc5413f3e
-	   |-- fabric-resource-loader-v1 1.0.10+78c8b4663e
-	   |-- fabric-screen-api-v1 3.1.7+4ebb5c083e
-	   |-- fabric-screen-handler-api-v1 1.3.161+4fc5413f3e
-	   |-- fabric-serialization-api-v1 1.0.5+4ebb5c083e
-	   |-- fabric-sound-api-v1 1.0.51+4fc5413f3e
-	   |-- fabric-tag-api-v1 1.2.20+4fc5413f3e
-	   |-- fabric-transfer-api-v1 6.0.25+4fc5413f3e
-	   \-- fabric-transitive-access-wideners-v1 7.1.0+014c8cec3e
-	- fabric-language-kotlin 1.13.10+kotlin.2.3.20
-	   |-- org_jetbrains_kotlin_kotlin-reflect 2.3.20
-	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.3.20
-	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.3.20
-	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.3.20
-	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.32.1
-	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
-	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
-	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.7.1
-	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.9.0
-	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.9.0
-	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.10.0
-	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.10.0
-	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.10.0
-	- fabricloader 0.18.2
-	   \-- mixinextras 0.5.0
-	- floodgate 2.2.6-SNAPSHOT
-	   |-- aopalliance_aopalliance 1.0
-	   |-- cloud 2.0.0-beta.15
-	   |    |-- io_leangen_geantyref_geantyref 1.3.15
-	   |    |-- org_incendo_cloud-brigadier 2.0.0-beta.14
-	   |    |-- org_incendo_cloud-core 2.0.0
-	   |    |-- org_incendo_cloud-minecraft-modded-common-fabric-repack 2.0.0-beta.15
-	   |    \-- org_incendo_cloud-services 2.0.0
-	   |-- com_google_guava_failureaccess 1.0.1
-	   |-- fabric-permissions-api-v0 0.6.1
-	   |-- jakarta_inject_jakarta_inject-api 2.0.1
-	   |-- javax_inject_javax_inject 1
-	   |-- org_geysermc_cumulus_cumulus 1.1.2
-	   |-- org_geysermc_event_events 1.1-SNAPSHOT
-	   |-- org_geysermc_geyser_common_unshaded 2.2.1-SNAPSHOT
-	   |-- org_java-websocket_java-websocket 1.5.2
-	   \-- org_lanternpowered_lmbda 2.0.0
-	- fsit 2.9.1+mc1.21.11
-	- geyser-fabric 2.9.6-SNAPSHOT
-	   |-- cloud 2.0.0-beta.15
-	   |    |-- io_leangen_geantyref_geantyref 1.3.15
-	   |    |-- org_incendo_cloud-brigadier 2.0.0-beta.14
-	   |    |-- org_incendo_cloud-core 2.0.0
-	   |    |-- org_incendo_cloud-minecraft-modded-common-fabric-repack 2.0.0-beta.15
-	   |    \-- org_incendo_cloud-services 2.0.0
-	   |-- com_google_code_findbugs_jsr305 3.0.2
-	   |-- com_google_errorprone_error_prone_annotations 2.27.0
-	   |-- com_google_j2objc_j2objc-annotations 1.3
-	   |-- com_nukkitx_natives 1.0.3
-	   |-- fabric-permissions-api-v0 0.6.1
-	   |-- io_airlift_aircompressor 0.27
-	   |-- io_netty_netty-codec-haproxy 4.2.7
-	   |-- net_jodah_expiringmap 0.5.10
-	   |-- net_kyori_adventure-api 4.25.0
-	   |-- net_kyori_adventure-key 4.25.0
-	   |-- net_kyori_adventure-nbt 4.25.0
-	   |-- net_kyori_adventure-text-serializer-commons 4.25.0
-	   |-- net_kyori_adventure-text-serializer-gson 4.25.0
-	   |-- net_kyori_adventure-text-serializer-json 4.25.0
-	   |-- net_kyori_adventure-text-serializer-json-legacy-impl 4.25.0
-	   |-- net_kyori_adventure-text-serializer-legacy 4.25.0
-	   |-- net_kyori_adventure-text-serializer-plain 4.25.0
-	   |-- net_kyori_examination-api 1.3.0
-	   |-- net_kyori_examination-string 1.3.0
-	   |-- net_kyori_option 1.1.0
-	   |-- net_lenni0451_commons_gson 1.9.0
-	   |-- net_lenni0451_commons_httpclient 1.9.0
-	   |-- net_raphimc_minecraftauth 5.0.0
-	   |-- org_bitbucket_b_c_jose4j 0.9.6
-	   |-- org_bstats_bstats-base 3.1.0
-	   |-- org_cloudburstmc_math_api 2.0
-	   |-- org_cloudburstmc_math_immutable 2.0
-	   |-- org_cloudburstmc_nbt 3.0.4
-	   |-- org_geysermc_api_base-api 1.0.2
-	   |-- org_geysermc_cumulus_cumulus 1.1.2
-	   |-- org_geysermc_event_events 1.1-SNAPSHOT
-	   |-- org_jetbrains_annotations 24.0.0
-	   |-- org_lanternpowered_lmbda 2.0.0
-	   \-- org_yaml_snakeyaml 2.2
-	- java 21
-	- krypton 0.2.10
-	   \-- com_velocitypowered_velocity-native 3.4.0-SNAPSHOT
-	- leashmod 1.2.5+1.21.11
-	- letmedespawn 1.6.2
-	- lithium 0.21.4+mc1.21.11
-	- minecraft 1.21.11
-	- scalablelux 0.1.6+fabric.c25518a
-	- skinrestorer 2.7.0+1.21.11-fabric
-	   \-- org_mineskin_java-client 3.2.1-SNAPSHOT
-	- threadtweak 0.1.8+mc1.21.11
-	- vmp 0.2.0+beta.7.227+1.21.11
-	   \-- com_ibm_async_asyncutil 0.1.0
-	- yet_another_config_lib_v3 3.8.2+1.21.11-fabric
-	   |-- com_twelvemonkeys_common_common-image 3.12.0
-	   |-- com_twelvemonkeys_common_common-io 3.12.0
-	   |-- com_twelvemonkeys_common_common-lang 3.12.0
-	   |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
-	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
-	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
-	   |-- org_quiltmc_parsers_gson 0.2.1
-	   \-- org_quiltmc_parsers_json 0.2.1
-[21:31:21] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/ilovemygf2/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[21:31:21] [main/INFO]: Compatibility level set to JAVA_21
-[21:31:22] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[21:31:22] [main/INFO]: Global Executor Parallelism: 3 configured, 3 evaluated, 3 default evaluated
-[21:31:22] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[21:31:22] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[21:31:22] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[21:31:22] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[21:31:22] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[21:31:22] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[21:31:22] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[21:31:22] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
-[21:31:22] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[21:31:22] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[21:31:22] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[21:31:22] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[21:31:22] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[21:31:22] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[21:31:22] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
-[21:31:22] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[21:31:22] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[21:31:22] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[21:31:22] [main/INFO]: Loaded configuration file for Lithium: 171 options available, 0 override(s) found.
-[21:31:22] [main/WARN]: Reference map 'skinrestorer.refmap.json' for skinrestorer.mixins.json could not be read. If this is a development environment you can ignore this message
-[21:31:22] [main/WARN]: Reference map 'skinrestorer.refmap.json' for skinrestorer.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[21:31:22] [main/INFO]: Successfully started async appender with [SysOut, ServerGuiConsole, Tracy, File]
-[21:31:22] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
-[21:31:22] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[21:31:23] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[21:31:24] [main/INFO]: ThreadTweak config initialized
-[21:31:31] [main/INFO]: Almanac Fabric config reloaded, cache cleared
-[21:31:31] [main/INFO]: Almanac Fabric config initialized
-[21:31:31] [main/INFO]: Almanac initialized
-[21:31:31] [main/INFO]: Enabled 60 bug fixes: [MC-7569, MC-8187, MC-30391, MC-44654, MC-82263, MC-84661, MC-88371, MC-89146, MC-93018, MC-94054, MC-100991, MC-119754, MC-121706, MC-121903, MC-123450, MC-123605, MC-129909, MC-131562, MC-132878, MC-133218, MC-134110, MC-136249, MC-139041, MC-147659, MC-153010, MC-155509, MC-158900, MC-159283, MC-160095, MC-168573, MC-170462, MC-176806, MC-177381, MC-179072, MC-183990, MC-187100, MC-200418, MC-201374, MC-202637, MC-206922, MC-215530, MC-219981, MC-221257, MC-223153, MC-224729, MC-226961, MC-227008, MC-227337, MC-231743, MC-232869, MC-245394, MC-263999, MC-264285, MC-264979, MC-267125, MC-268617, MC-271899, MC-272431, MC-297837, MC-298066]
-[21:31:31] [main/INFO]: Successfully Debugify'd your game!
-[21:31:31] [main/WARN]: en_ is not a supported Floodgate language.
-[21:31:33] [main/INFO]: Loading extensions...
-[21:31:33] [main/INFO]: Loaded 0 extension(s)
-[21:31:34] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.x.x (Linux x86_64)
-[21:31:34] [main/INFO]: Initialized LeashPlayers
-[21:31:34] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[21:31:34] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[21:31:35] [main/ERROR]: Couldn't load file/Terralith_1.21.11_v2.6.0.zip fabric:overlays metadata: Unknown resource condition key: terralith:config; Unknown resource condition key: terralith:config; Unknown resource condition key: terralith:config; Unknown resource condition key: terralith:config; Unknown resource condition key: terralith:config; Unknown resource condition key: terralith:config; Unknown resource condition key: terralith:config
-[21:31:35] [main/ERROR]: Couldn't load file/lukis-grand-capitals-v1.1.3.zip pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
-[21:31:39] [Worker-Main-3/ERROR]: Couldn't parse data file 'epic:chests/scary' from 'epic:loot_table/chests/scary.json': DataResult.Error['Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain': net.minecraft.class_52@2136989d]
-[21:31:39] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:entities/player@minecraft:loot_table}.pools[1].entries[0]: Missing element player_heads:entities/player of type minecraft:loot_table
-[21:31:41] [main/INFO]: Loaded 1472 recipes
-[21:31:41] [main/ERROR]: Failed to load function stm:silk_touch_effect
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Malformed 'minecraft:enchantments' component: 'Not a number; Failed to get element minecraft:levels missed input: {levels:{"minecraft:silk_touch":1}}' at position 75: ...hantments=<--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770)
-	at knot//net.minecraft.class_4014.method_67576(class_4014.java:51)
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Malformed 'minecraft:enchantments' component: 'Not a number; Failed to get element minecraft:levels missed input: {levels:{"minecraft:silk_touch":1}}' at position 75: ...hantments=<--[HERE]
-	at knot//net.minecraft.class_2158.method_9195(class_2158.java:80)
-	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-	... 7 more
-[21:31:42] [main/ERROR]: Failed to load function stm:fortune_effect
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Can't parse function line 1: 'execute if block ~ ~ ~ air run return fail'
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770)
-	at knot//net.minecraft.class_4014.method_67576(class_4014.java:51)
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
-Caused by: java.lang.IllegalArgumentException: Can't parse function line 1: 'execute if block ~ ~ ~ air run return fail'
-	at knot//net.minecraft.class_8867.method_54421(class_8867.java:49)
-	at knot//net.minecraft.class_2158.method_9195(class_2158.java:75)
-	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-	... 7 more
-Caused by: java.lang.IllegalArgumentException: No variables in macro
-	at knot//net.minecraft.class_8873.method_54432(class_8873.java:36)
-	at knot//net.minecraft.class_8867.method_54421(class_8867.java:47)
-	... 10 more
-[21:31:42] [main/INFO]: Loaded 1993 advancements
-[21:31:42] [main/INFO]: Applied 0 biome modifications to 0 of 168 new biomes in 2.068 ms
-[21:31:42] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[21:31:42] [Server thread/INFO]: Loading properties
-[21:31:42] [Server thread/INFO]: Default game type: SURVIVAL
-[21:31:42] [Server thread/INFO]: Generating keypair
-[21:31:42] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:31:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:31:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:31:42] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:31:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:31:42] [Server thread/INFO]: Preparing level "world"
-[21:31:42] [Server thread/INFO]: Enforcing safe world random access
-[21:31:43] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 886.5 ms
-[21:31:43] [Server thread/INFO]: Changing watch distance to 10
-[21:31:43] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
-[21:31:44] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 166.3 ms
-[21:31:44] [Server thread/INFO]: Changing watch distance to 10
-[21:31:44] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 10.23 ms
-[21:31:44] [Server thread/INFO]: Changing watch distance to 10
-[21:31:45] [Server thread/INFO]: Loading 0 persistent chunks...
-[21:31:45] [Server thread/INFO]: Preparing spawn area: 100%
-[21:31:45] [Server thread/INFO]: [STDOUT]: [ScalableLux] Lighting scaling is enabled in externally managed mode
-[21:31:45] [Server thread/INFO]: Time elapsed: 32 ms
-[21:31:45] [Server thread/INFO]: Done (2.864s)! For help, type "help"
-[21:31:45] [Server thread/INFO]: Took 96ms to boot Floodgate
-[21:31:46] [Server thread/INFO]: ******************************************
-[21:31:46] [Server thread/INFO]: 
-[21:31:46] [Server thread/INFO]: Loading Geyser version 2.9.6-b1133 (git-master-7ccf9d3)
-[21:31:46] [Server thread/INFO]: 
-[21:31:46] [Server thread/INFO]: ******************************************
-[21:31:56] [GeyserServer-3-1/INFO]: Started Geyser on UDP port 19132
-[21:31:56] [Server thread/INFO]: Done (10.16s)! Run /geyser help for help!
-[21:31:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10719ms or 214 ticks behind
-[21:32:56] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[21:33:18] [Server thread/INFO]: boidoxx[/10.146.226.20:62758] logged in with entity id 254 at (-120.66749692707344, 97.0, 123.81452740794596)
-[21:33:18] [Server thread/INFO]: boidoxx joined the game
-[21:33:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2104ms or 42 ticks behind
-[21:33:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6725ms or 134 ticks behind
-[21:33:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2048ms or 40 ticks behind
+[00:00:00] [Server thread/INFO]: [Not Secure] <fideosxdu> NOE S IRVE
+[00:00:01] [Server thread/INFO]: [Not Secure] <ImnotCarv> KYS
+[00:00:03] [Server thread/INFO]: [Not Secure] <fideosxdu> ES MIO ESE
+[00:00:10] [Server thread/INFO]: [Not Secure] <boidoxx> broo carv eso no se ase
+[00:00:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2713ms or 54 ticks behind
+[00:00:19] [Server thread/INFO]: [Not Secure] <ImnotCarv> lo tiene fideo en la mano
+[00:00:20] [Server thread/INFO]: [Not Secure] <boidoxx> AHI LO RECUPERO
+[00:00:28] [Server thread/INFO]: [Not Secure] <ImnotCarv> BRO BOI.
+[00:00:29] [Server thread/INFO]: [Not Secure] <fideosxdu> lso aldeanos?.
+[00:00:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2799ms or 55 ticks behind
+[00:01:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
+[00:02:00] [Server thread/WARN]: ImnotCarv moved too quickly! 5.73134388815275,-15.582855066782159,-1.6954351490615664
+[00:02:09] [Server thread/INFO]: [Not Secure] <ImnotCarv> JEJEJJIJIJOJOJJUUJ
+[00:02:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[00:02:18] [Server thread/INFO]: [Not Secure] <fideosxdu> quien exploto a lso aldeanos?.
+[00:02:18] [Server thread/INFO]: [Not Secure] <boidoxx> bro lumi calmate
+[00:02:30] [Server thread/INFO]: fideosxdu lost connection: Disconnected
+[00:02:30] [Server thread/INFO]: fideosxdu left the game
+[00:02:33] [Server thread/INFO]: [Not Secure] <ImnotCarv> fideo
+[00:02:35] [Server thread/INFO]: [Not Secure] <ImnotCarv> jeje
+[00:02:38] [Server thread/INFO]: [Not Secure] <ImnotCarv> bro
+[00:02:43] [Server thread/INFO]: boidoxx has made the advancement [Hot Stuff]
+[00:02:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[00:02:51] [Server thread/INFO]: fideosxdu[/10.146.226.147:61366] logged in with entity id 176940 at (-171.00810861831184, 88.0, 162.7229032044541)
+[00:02:51] [Server thread/INFO]: fideosxdu joined the game
+[00:03:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3321ms or 66 ticks behind
+[00:03:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3106ms or 62 ticks behind
+[00:03:36] [Server thread/INFO]: ImnotCarv experienced kinetic energy while trying to escape Iron Golem
+[00:03:39] [Server thread/INFO]: [Not Secure] <boidoxx> XDDDD
+[00:03:40] [Server thread/INFO]: [Not Secure] <boidoxx> BOBOLON
+[00:03:41] [Server thread/INFO]: [Not Secure] <ImnotCarv> eh
+[00:03:42] [Server thread/INFO]: [Not Secure] <ImnotCarv> eh
+[00:03:42] [Server thread/INFO]: [Not Secure] <ImnotCarv> eh
+[00:03:43] [Server thread/INFO]: [Not Secure] <ImnotCarv> eh
+[00:03:44] [Server thread/INFO]: [Not Secure] <ImnotCarv> EH
+[00:03:52] [Server thread/INFO]: [Not Secure] <ImnotCarv> NO VIERON NADFAA
+[00:03:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[00:04:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3745ms or 74 ticks behind
+[00:04:25] [Server thread/INFO]: [Not Secure] <boidoxx> CHAU
+[00:04:29] [Server thread/INFO]: [Not Secure] <ImnotCarv> oich
+[00:04:31] [Server thread/INFO]: [Not Secure] <ImnotCarv> ouch
+[00:04:34] [Server thread/INFO]: [Not Secure] <boidoxx> ERA PARA SUBIR AL HIJO
+[00:04:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4266ms or 85 ticks behind
+[00:04:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7113ms or 142 ticks behind
+[00:05:10] [Server thread/INFO]: [Not Secure] <ImnotCarv> UY
+[00:05:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8379ms or 167 ticks behind
+[00:05:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4216ms or 84 ticks behind
+[00:05:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3174ms or 63 ticks behind
+[00:06:04] [Server thread/INFO]: [Not Secure] <boidoxx> alguien tiene cohetes para prestar
+[00:06:05] [Server thread/INFO]: [Not Secure] <boidoxx> jeje
+[00:06:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4131ms or 82 ticks behind
+[00:06:25] [Server thread/INFO]: Villager class_1646['Leatherworker'/181895, l='ServerLevel[world]', x=-30.30, y=63.00, z=10.40] died, message: 'Leatherworker was slain by Zombie'
+[00:06:33] [Server thread/INFO]: [Not Secure] <fideosxdu> alguein tiene unpico sin toque de seda? je
+[00:06:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4772ms or 95 ticks behind
+[00:06:38] [Server thread/INFO]: [Not Secure] <ImnotCarv> MY HORSE
+[00:06:40] [Server thread/INFO]: [Not Secure] <ImnotCarv> MI KABALLO
+[00:06:41] [Server thread/INFO]: [Not Secure] <ImnotCarv> DONDE
+[00:06:44] [Server thread/INFO]: [Not Secure] <ImnotCarv> ESTA
+[00:06:49] [Server thread/INFO]: [Not Secure] <fideosxdu> tyy
+[00:06:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
+[00:07:03] [Server thread/INFO]: Villager class_1646['Villager'/182827, l='ServerLevel[world]', x=-48.70, y=62.19, z=1.92] died, message: 'Villager was slain by Zombie'
+[00:07:03] [Server thread/INFO]: [Not Secure] <fideosxdu> NO ETNGO MI SKIN AGH
+[00:07:08] [Server thread/INFO]: Villager class_1646['Villager'/182828, l='ServerLevel[world]', x=-46.30, y=61.00, z=1.70] died, message: 'Villager was slain by Zombie'
+[00:07:17] [Server thread/INFO]: [Not Secure] <ImnotCarv> bro
+[00:07:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7615ms or 152 ticks behind
+[00:07:26] [Server thread/INFO]: [Not Secure] <fideosxdu> bro
+[00:07:33] [Server thread/INFO]: [Not Secure] <ImnotCarv> DEJA MI CABALLO
+[00:07:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3641ms or 72 ticks behind
+[00:07:52] [Server thread/INFO]: [Not Secure] <ImnotCarv> LOS ARMADILLOS ESTAN
+[00:07:53] [Server thread/INFO]: [Not Secure] <ImnotCarv> COJIENDOO
+[00:07:54] [Server thread/INFO]: [Not Secure] <ImnotCarv> PACIENCIA
+[00:07:56] [Server thread/INFO]: [Not Secure] <fideosxdu> pobre cabajo
+[00:07:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3966ms or 79 ticks behind
+[00:08:09] [Server thread/INFO]: [Not Secure] <boidoxx> bro
+[00:08:10] [Server thread/INFO]: [Not Secure] <boidoxx> la polvora
+[00:08:11] [Server thread/INFO]: [Not Secure] <boidoxx> jaja
+[00:08:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2143ms or 42 ticks behind
+[00:08:18] [Server thread/INFO]: [Not Secure] <boidoxx> no seas codiciosa
+[00:08:34] [Server thread/INFO]: [Not Secure] <ImnotCarv> bro dudas me da meido
+[00:08:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2027ms or 40 ticks behind
+[00:08:35] [Server thread/INFO]: [Not Secure] <ImnotCarv> miedo
+[00:08:45] [Server thread/INFO]: [Not Secure] <boidoxx> CUANTOS NIVELES NECESITAS?
+[00:08:50] [Server thread/INFO]: [Not Secure] <ImnotCarv> FIDEO
+[00:08:52] [Server thread/INFO]: [Not Secure] <ImnotCarv> FIDEO
+[00:08:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[00:08:55] [Server thread/INFO]: [Not Secure] <ImnotCarv> DIME COMO CONSEGUISTE
+[00:08:57] [Server thread/INFO]: [Not Secure] <ImnotCarv> LA NETHERITE..
+[00:09:00] [Server thread/INFO]: [Not Secure] <ImnotCarv> sin minarla
+[00:09:01] [Server thread/INFO]: [Not Secure] <boidoxx> 67?????!"?$??
+[00:09:02] [Server thread/INFO]: [Not Secure] <ImnotCarv> PICANDO?
+[00:09:06] [Server thread/INFO]: [Not Secure] <ImnotCarv> ??
+[00:09:07] [Server thread/INFO]: [Not Secure] <ImnotCarv> ??
+[00:09:08] [Server thread/INFO]: [Not Secure] <ImnotCarv> ?
+[00:09:10] [Server thread/INFO]: [Not Secure] <ImnotCarv> BRO
+[00:09:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[00:09:19] [Server thread/INFO]: [Not Secure] <ImnotCarv> MHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+[00:09:22] [Server thread/INFO]: [Not Secure] <ImnotCarv> DEJA A MARCELO
+[00:09:30] [Server thread/INFO]: [Not Secure] <ImnotCarv> SSSHH
+[00:09:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[00:09:45] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[00:09:54] [Server thread/INFO]: [Not Secure] <boidoxx> jeje
+[00:09:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2097ms or 41 ticks behind
+[00:09:58] [Server thread/INFO]: [Not Secure] <boidoxx> t vine acompañar
+[00:10:03] [Server thread/INFO]: [Not Secure] <boidoxx> como el buen novio q soy
+[00:10:05] [Server thread/INFO]: [Not Secure] <boidoxx> y a pedirte la polvora
+[00:10:07] [Server thread/INFO]: [Not Secure] <boidoxx> tambien
+[00:10:09] [Server thread/INFO]: [Not Secure] <boidoxx> sabes
+[00:10:15] [Server thread/INFO]: [Not Secure] <boidoxx> QUE
+[00:10:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[00:10:29] [Server thread/INFO]: [Not Secure] <ImnotCarv> bro los arqueros
+[00:10:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2027ms or 40 ticks behind
+[00:10:43] [Server thread/INFO]: [Not Secure] <ImnotCarv> OH
+[00:10:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2049ms or 40 ticks behind
+[00:10:59] [Server thread/INFO]: [Not Secure] <boidoxx> eh
+[00:11:01] [Server thread/INFO]: [Not Secure] <boidoxx> 1 ta bien
+[00:11:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2319ms or 46 ticks behind
+[00:11:12] [Server thread/INFO]: [Not Secure] <boidoxx> ok voy
+[00:11:24] [Server thread/INFO]: [Not Secure] <boidoxx> matando al wither
+[00:11:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2116ms or 42 ticks behind
+[00:11:35] [Server thread/INFO]: [Not Secure] <ImnotCarv> BRO.
+[00:11:37] [Server thread/INFO]: [Not Secure] <ImnotCarv> MI MADERA.
+[00:11:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2950ms or 59 ticks behind
+[00:12:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2440ms or 48 ticks behind
+[00:12:08] [Server thread/INFO]: [Not Secure] <boidoxx> MI SHULKER
+[00:12:18] [Server thread/INFO]: [Not Secure] <ImnotCarv> OMFG
+[00:12:19] [Server thread/INFO]: [Not Secure] <ImnotCarv> OMDG
+[00:12:20] [Server thread/INFO]: [Not Secure] <ImnotCarv> OMFG
+[00:12:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2721ms or 54 ticks behind
+[00:12:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2491ms or 49 ticks behind
+[00:12:44] [Server thread/INFO]: [Not Secure] <ImnotCarv> FIFEO
+[00:12:47] [Server thread/INFO]: [Not Secure] <ImnotCarv> FIDEO.
+[00:12:50] [Server thread/INFO]: [Not Secure] <ImnotCarv> MI MADERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[00:12:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2249ms or 44 ticks behind
+[00:13:09] [Server thread/INFO]: [Not Secure] <ImnotCarv> me lo dicen mucho..
+[00:13:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2743ms or 54 ticks behind
+[00:13:23] [Server thread/INFO]: [Not Secure] <ImnotCarv> me lo tienen de apodo,tambien me dicen pendejo de mierda pero ese no me gusta mucho
+[00:13:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3525ms or 70 ticks behind
+[00:13:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3566ms or 71 ticks behind
+[00:14:07] [Server thread/INFO]: [Not Secure] <boidoxx> AH CON RAZON
+[00:14:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3065ms or 61 ticks behind
+[00:14:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2033ms or 40 ticks behind
+[00:14:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2281ms or 45 ticks behind
+[00:15:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[00:15:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[00:15:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2284ms or 45 ticks behind
+[00:15:54] [Server thread/INFO]: [Not Secure] <boidoxx> EH
+[00:15:56] [Server thread/INFO]: [Not Secure] <boidoxx> DEJA RECUPERO ARMOR
+[00:15:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[00:16:01] [Server thread/INFO]: [Not Secure] <boidoxx> SI NO ME DESTROZAN TODO
+[00:16:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2488ms or 49 ticks behind
+[00:16:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2611ms or 52 ticks behind
+[00:16:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2364ms or 47 ticks behind
+[00:17:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[00:17:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[00:17:30] [Server thread/INFO]: [Not Secure] <boidoxx> jaja
+[00:17:38] [Server thread/INFO]: [Not Secure] <boidoxx> se me escaparon unos cuantos
+[00:17:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2029ms or 40 ticks behind
+[00:18:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2460ms or 49 ticks behind
+[00:18:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2478ms or 49 ticks behind
+[00:18:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2482ms or 49 ticks behind
+[00:18:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2580ms or 51 ticks behind
+[00:19:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[00:19:34] [Server thread/INFO]: [Not Secure] <boidoxx> q no hizo
+[00:19:35] [Server thread/INFO]: [Not Secure] <boidoxx> buena pregunta
+[00:19:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
+[00:19:42] [Server thread/INFO]: [Not Secure] <boidoxx> CLARO Q PUEDO HABLAR
+[00:19:54] [Server thread/INFO]: [Not Secure] <boidoxx> calla carvoso
+[00:19:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2439ms or 48 ticks behind
+[00:20:07] [Server thread/INFO]: [Not Secure] <boidoxx> FIDO
+[00:20:14] [Server thread/INFO]: [Not Secure] <boidoxx> QUE HACE ALBONDIGA EN EL NETHER
+[00:20:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9028ms or 180 ticks behind
+[00:20:30] [Server thread/INFO]: [Not Secure] <boidoxx> bro.
+[00:20:34] [Server thread/INFO]: [Not Secure] <boidoxx> quien compro las zanahorias
+[00:20:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7427ms or 148 ticks behind
+[00:21:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9792ms or 195 ticks behind
+[00:21:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7193ms or 143 ticks behind
+[00:21:29] [Server thread/INFO]: [Not Secure] <ImnotCarv> Z
+[00:21:29] [Server thread/INFO]: [Not Secure] <ImnotCarv> Z
+[00:21:29] [Server thread/INFO]: [Not Secure] <ImnotCarv> Z
+[00:21:29] [Server thread/INFO]: [Not Secure] <ImnotCarv> Z
+[00:21:29] [Server thread/INFO]: [Not Secure] <ImnotCarv> Z
+[00:21:32] [Server thread/INFO]: [Not Secure] <boidoxx> ZZZZZZZZZZZ
+[00:21:38] [Server thread/INFO]: [Not Secure] <boidoxx> ay no falta lumi
+[00:21:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2586ms or 51 ticks behind
+[00:22:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2901ms or 58 ticks behind
+[00:22:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5362ms or 107 ticks behind
+[00:22:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2185ms or 43 ticks behind
+[00:23:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[00:23:17] [Server thread/INFO]: [Not Secure] <boidoxx> mataaarooon
+[00:23:20] [Server thread/INFO]: [Not Secure] <boidoxx> mataron un inocente
+[00:23:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7322ms or 146 ticks behind
+[00:23:38] [Server thread/INFO]: fideosxdu lost connection: Timed out
+[00:23:38] [Server thread/INFO]: fideosxdu left the game
+[00:23:38] [Server thread/WARN]: handleDisconnection() called twice
+[00:23:44] [Server thread/INFO]: [boidoxx: Saved the game]
+[00:23:46] [Server thread/INFO]: fideosxdu[/10.146.226.147:54744] logged in with entity id 192041 at (-127.3549736966889, 88.0, 154.28339469959394)
+[00:23:46] [Server thread/INFO]: fideosxdu joined the game
+[00:23:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11157ms or 223 ticks behind
+[00:24:06] [Server thread/INFO]: [Not Secure] <boidoxx> hermano el nether es tan grande q puedo usar las elytras tranquilo
+[00:24:17] [Server thread/INFO]: [Not Secure] <boidoxx> quien sera
+[00:24:19] [c2me-worker-0/ERROR]: Failed to parse jigsaw replacement state 'minecraft:chisled_polished_blackstone' at class_2338{x=355, y=34, z=643}: Unknown block type 'minecraft:chisled_polished_blackstone' at position 0: <--[HERE]
+[00:24:19] [c2me-worker-1/ERROR]: Failed to parse jigsaw replacement state 'minecraft:chisled_polished_blackstone' at class_2338{x=381, y=34, z=643}: Unknown block type 'minecraft:chisled_polished_blackstone' at position 0: <--[HERE]
+[00:24:19] [c2me-worker-1/ERROR]: Failed to parse jigsaw replacement state 'minecraft:chisled_polished_blackstone' at class_2338{x=368, y=57, z=655}: Unknown block type 'minecraft:chisled_polished_blackstone' at position 0: <--[HERE]
+[00:24:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10615ms or 212 ticks behind
+[00:24:20] [c2me-worker-1/ERROR]: Failed to parse jigsaw replacement state 'minecraft:chisled_polished_blackstone' at class_2338{x=355, y=34, z=669}: Unknown block type 'minecraft:chisled_polished_blackstone' at position 0: <--[HERE]
+[00:24:20] [c2me-worker-0/ERROR]: Failed to parse jigsaw replacement state 'minecraft:chisled_polished_blackstone' at class_2338{x=381, y=34, z=669}: Unknown block type 'minecraft:chisled_polished_blackstone' at position 0: <--[HERE]
+[00:24:20] [c2me-worker-0/ERROR]: Failed to parse jigsaw replacement state 'minecraft:chisled_polished_blackstone' at class_2338{x=368, y=57, z=655}: Unknown block type 'minecraft:chisled_polished_blackstone' at position 0: <--[HERE]
+[00:24:32] [Server thread/INFO]: [Not Secure] <boidoxx> culpa d carv
+[00:24:44] [Server thread/INFO]: [Not Secure] <boidoxx> esistir.
+[00:24:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14182ms or 283 ticks behind
+[00:25:10] [Server thread/INFO]: boidoxx has reached the goal [Piglin Pillage]
+[00:25:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10302ms or 206 ticks behind
+[00:25:16] [Server thread/INFO]: [Not Secure] <boidoxx> bro hilo
+[00:25:31] [Server thread/INFO]: [Not Secure] <boidoxx> uy una bastion
+[00:25:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7104ms or 142 ticks behind
+[00:25:37] [Server thread/INFO]: boidoxx has made the advancement [Those Were the Days]
+[00:25:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6976ms or 139 ticks behind
+[00:26:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6435ms or 128 ticks behind
+[00:26:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7298ms or 145 ticks behind
+[00:27:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6818ms or 136 ticks behind
+[00:27:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7166ms or 143 ticks behind
+[00:27:40] [Server thread/INFO]: boidoxx has made the advancement [War Pigs]
+[00:27:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8212ms or 164 ticks behind
+[00:27:54] [Server thread/WARN]: ImnotCarv moved wrongly!
+[00:28:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8196ms or 163 ticks behind
+[00:28:26] [Server thread/INFO]: [Not Secure] <boidoxx> microfono de counter strike
+[00:28:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7361ms or 147 ticks behind
+[00:28:55] [Server thread/INFO]: [Not Secure] <boidoxx> dia 13
+[00:28:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5868ms or 117 ticks behind
+[00:29:02] [Server thread/INFO]: [Not Secure] <boidoxx> empezamos bien
+[00:29:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6389ms or 127 ticks behind
+[00:29:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6890ms or 137 ticks behind
+[00:30:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13531ms or 270 ticks behind
+[00:30:11] [Server thread/INFO]: boidoxx has made the advancement [Ancient Battlefield]
+[00:30:31] [Server thread/INFO]: [Not Secure] <boidoxx> UY
+[00:30:35] [Server thread/INFO]: [Not Secure] <boidoxx> EL SERVER LA ESTA PASANDO BIEN
+[00:30:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16215ms or 324 ticks behind
+[00:30:41] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/196832, l='ServerLevel[world]', x=308.07, y=86.00, z=623.54] died: Headless Warrior was slain by boidoxx
+[00:31:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9883ms or 197 ticks behind
+[00:31:20] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/196982, l='ServerLevel[world]', x=340.39, y=36.00, z=625.49] died: Headless Warrior was slain by Piglin
+[00:31:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8653ms or 173 ticks behind
+[00:31:32] [Server thread/INFO]: fideosxdu lost connection: Timed out
+[00:31:32] [Server thread/INFO]: fideosxdu left the game
+[00:31:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7478ms or 149 ticks behind
+[00:32:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7576ms or 151 ticks behind
+[00:32:29] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/197466, l='ServerLevel[world]', x=320.98, y=70.48, z=614.00] died: Headless Warrior was slain by Piglin Brute
+[00:32:31] [Server thread/INFO]: fideosxdu[/10.146.226.147:55239] logged in with entity id 197482 at (-133.85443815202933, 86.0, 148.76683606276507)
+[00:32:31] [Server thread/INFO]: fideosxdu joined the game
+[00:32:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7701ms or 154 ticks behind
+[00:32:44] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/196807, l='ServerLevel[world]', x=318.54, y=57.60, z=609.70] died: Headless Warrior was slain by Piglin Brute
+[00:32:49] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/197524, l='ServerLevel[world]', x=321.35, y=57.00, z=613.63] died: Headless Warrior was slain by Piglin Brute
+[00:32:53] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/197294, l='ServerLevel[world]', x=325.83, y=57.00, z=605.42] died: Headless Warrior was slain by Piglin Brute
+[00:32:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9025ms or 180 ticks behind
+[00:33:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12497ms or 249 ticks behind
+[00:33:41] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[00:34:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19823ms or 396 ticks behind
+[00:34:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15212ms or 304 ticks behind
+[00:35:01] [Server thread/INFO]: [Not Secure] <boidoxx> QUIEN ANDA POR LA BASE?
+[00:35:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15516ms or 310 ticks behind
+[00:35:09] [Server thread/INFO]: [Not Secure] <fideosxdu> si
+[00:35:13] [Server thread/INFO]: [boidoxx: Triggered [Mode] (set value to 1)]
+[00:35:15] [Server thread/INFO]: [boidoxx: Triggered [Ask] (set value to 6)]
+[00:35:18] [Server thread/INFO]: [fideosxdu: Triggered [Accept] (set value to 1)]
+[00:35:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11669ms or 233 ticks behind
+[00:35:38] [Server thread/WARN]: ImnotCarv moved too quickly! -7.606526676009253,-18.755128720565708,-4.190408155728377
+[00:35:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7932ms or 158 ticks behind
+[00:36:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6880ms or 137 ticks behind
+[00:36:16] [Server thread/INFO]: Dudas19[/10.146.226.162:64722] logged in with entity id 199637 at (-154.97336094442758, 91.0, 180.69999998807907)
+[00:36:16] [Server thread/INFO]: Dudas19 joined the game
+[00:36:29] [Server thread/INFO]: [Not Secure] <ImnotCarv> WHO IS DUDAS19
+[00:36:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7169ms or 143 ticks behind
+[00:36:47] [Server thread/INFO]: Dudas19 lost connection: Timed out
+[00:36:47] [Server thread/INFO]: Dudas19 left the game
+[00:36:52] [Server thread/INFO]: [Not Secure] <ImnotCarv> bro.
+[00:36:56] [Server thread/INFO]: [Not Secure] <boidoxx> XDDDDD
+[00:36:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7672ms or 153 ticks behind
+[00:36:59] [Server thread/INFO]: [Not Secure] <boidoxx> QUYE
+[00:37:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6509ms or 130 ticks behind
+[00:37:38] [Server thread/INFO]: Dudas19[/10.146.226.162:64745] logged in with entity id 200471 at (-154.97336094442758, 91.0, 180.69999998807907)
+[00:37:38] [Server thread/INFO]: Dudas19 joined the game
+[00:37:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6238ms or 124 ticks behind
+[00:38:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6655ms or 133 ticks behind
+[00:38:04] [Server thread/INFO]: fideosxdu has made the advancement [Wax Off]
+[00:38:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6200ms or 124 ticks behind
+[00:38:37] [Server thread/INFO]: [Not Secure] <boidoxx> netherite upgrade
+[00:38:39] [Server thread/INFO]: [Not Secure] <boidoxx> jeje
+[00:38:43] [Server thread/INFO]: [Not Secure] <boidoxx> se viene farmeo
+[00:38:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6645ms or 132 ticks behind
+[00:38:56] [Server thread/INFO]: [Not Secure] <boidoxx> HOL
+[00:38:58] [Server thread/INFO]: [Not Secure] <boidoxx> NOOO
+[00:38:59] [Server thread/INFO]: [Not Secure] <boidoxx> ES LITERAL
+[00:39:01] [Server thread/INFO]: [Not Secure] <boidoxx> EL DUDAS
+[00:39:04] [Server thread/INFO]: [Not Secure] <boidoxx> EL VERDADERO
+[00:39:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6811ms or 136 ticks behind
+[00:39:08] [Server thread/INFO]: [Not Secure] <boidoxx> EL AVATAR
+[00:39:20] [Server thread/INFO]: [Not Secure] <boidoxx> el de tomodachi
+[00:39:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7492ms or 149 ticks behind
+[00:39:52] [Server thread/INFO]: [Not Secure] <boidoxx> HOLAAA
+[00:39:53] [Server thread/INFO]: Dudas19 lost connection: Timed out
+[00:39:53] [Server thread/INFO]: Dudas19 left the game
+[00:39:55] [Server thread/INFO]: [Not Secure] <boidoxx> no fui yo
+[00:39:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14141ms or 282 ticks behind
+[00:40:00] [Server thread/INFO]: [Not Secure] <boidoxx> tipo yo se lo puse
+[00:40:02] [Server thread/INFO]: [Not Secure] <boidoxx> un mensaje
+[00:40:06] [Server thread/INFO]: [Not Secure] <boidoxx> conmovedor
+[00:40:12] [Server thread/INFO]: [Not Secure] <boidoxx> decia q lumi es muy tonta
+[00:40:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9313ms or 186 ticks behind
+[00:40:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6558ms or 131 ticks behind
+[00:41:07] [Server thread/INFO]: Dudas19[/10.146.226.162:57216] logged in with entity id 203692 at (-20.63489157994594, 72.0, 21.5)
+[00:41:07] [Server thread/INFO]: Dudas19 joined the game
+[00:41:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10131ms or 202 ticks behind
+[00:41:19] [Server thread/INFO]: [Not Secure] <boidoxx> estos tipos son mas homosexuales
+[00:41:24] [Server thread/INFO]: [Not Secure] <boidoxx> q los homosexuales en si
+[00:41:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13499ms or 269 ticks behind
+[00:41:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-200, y=62, z=377} class_2338{x=-201, y=60, z=378}
+[00:41:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-199, y=63, z=376} class_2338{x=-200, y=59, z=378}
+[00:41:47] [Server thread/INFO]: [Not Secure] <boidoxx> mobs
+[00:41:48] [Server thread/INFO]: [Not Secure] <boidoxx> mods
+[00:41:50] [Server thread/INFO]: [Not Secure] <boidoxx> mops
+[00:41:59] [Server thread/INFO]: [Not Secure] <boidoxx> MOPS
+[00:42:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9751ms or 195 ticks behind
+[00:42:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11010ms or 220 ticks behind
+[00:42:31] [Server thread/INFO]: [Not Secure] <boidoxx> ese amigo dudoso
+[00:42:32] [Server thread/INFO]: [Not Secure] <boidoxx> hola fidom
+[00:42:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9909ms or 198 ticks behind
+[00:42:55] [Server thread/INFO]: [boidoxx: Gave 2 [Ghast Tear] to boidoxx]
+[00:43:03] [Server thread/INFO]: [Not Secure] <ImnotCarv> EEEYYYY
+[00:43:04] [Server thread/INFO]: [Not Secure] <ImnotCarv> QUE HIZEE
+[00:43:07] [Server thread/INFO]: [Not Secure] <ImnotCarv> PORKEEE
+[00:43:12] [Server thread/INFO]: [Not Secure] <ImnotCarv> OKEI.........................................
+[00:43:17] [Server thread/WARN]: fideosxdu moved wrongly!
+[00:43:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9472ms or 189 ticks behind
+[00:43:24] [Server thread/INFO]: [Not Secure] <ImnotCarv> chikos me rompen el korazon chikos
+[00:43:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12894ms or 257 ticks behind
+[00:44:09] [Server thread/INFO]: [Not Secure] <boidoxx> AY
+[00:44:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10516ms or 210 ticks behind
+[00:44:12] [Server thread/INFO]: [Not Secure] <boidoxx> ME ACORDE DEL HUEVO
+[00:44:17] [Server thread/INFO]: [Not Secure] <ImnotCarv> DONDE ESTA EL HUEVO
+[00:44:18] [Server thread/INFO]: fideosxdu lost connection: Timed out
+[00:44:18] [Server thread/INFO]: fideosxdu left the game
+[00:44:24] [Server thread/INFO]: [Not Secure] <boidoxx> jeje
+[00:44:26] [Server thread/INFO]: [Not Secure] <boidoxx> lo escondi
+[00:44:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10066ms or 201 ticks behind
+[00:44:38] [Server thread/INFO]: fideosxdu[/10.146.226.147:58692] logged in with entity id 206284 at (-136.05037136157517, 85.0, 154.30000001192093)
+[00:44:38] [Server thread/INFO]: fideosxdu joined the game
+[00:44:42] [Server thread/INFO]: [Not Secure] <boidoxx> perdi al bebe lumi
+[00:45:00] [Server thread/INFO]: [Not Secure] <boidoxx> broextraño a lumi
+[00:45:02] [Server thread/INFO]: [Not Secure] <boidoxx> sniff
+[00:45:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-228, y=20, z=445} class_2338{x=-227, y=20, z=445}
+[00:45:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-228, y=19, z=445} class_2338{x=-227, y=20, z=445}
+[00:45:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13512ms or 270 ticks behind
+[00:45:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-228, y=19, z=445} class_2338{x=-227, y=20, z=445}
+[00:45:12] [Server thread/INFO]: [Not Secure] <ImnotCarv> bro se fue hace 1 segundo
+[00:45:16] [Server thread/INFO]: [Not Secure] <boidoxx> bro callate
+[00:45:31] [Server thread/INFO]: [Not Secure] <boidoxx> shikito
+[00:45:32] [Server thread/INFO]: [Not Secure] <ImnotCarv> QEU MIERDA
+[00:45:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12854ms or 257 ticks behind
+[00:45:33] [Server thread/INFO]: [Not Secure] <ImnotCarv> DUDAS
+[00:45:38] [Server thread/INFO]: [Not Secure] <ImnotCarv> QYE HACES ACA
+[00:45:43] [Server thread/INFO]: [Not Secure] <boidoxx> holhol
+[00:45:44] [Server thread/INFO]: [Not Secure] <Dudas19> HOLA
+[00:45:48] [Server thread/INFO]: [Not Secure] <ImnotCarv> ???????????????????????????????'
+[00:45:50] [Server thread/INFO]: [Not Secure] <ImnotCarv> COMO M
+[00:45:53] [Server thread/INFO]: [Not Secure] <ImnotCarv> ENCONTRASTE
+[00:45:55] [Server thread/INFO]: [Not Secure] <ImnotCarv> ACOSADOR
+[00:45:56] [Server thread/INFO]: [Not Secure] <Dudas19> NO SE
+[00:45:57] [Server thread/INFO]: [Not Secure] <boidoxx> si
+[00:45:58] [Server thread/INFO]: [Not Secure] <boidoxx> con fortuna
+[00:46:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13500ms or 270 ticks behind
+[00:46:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-235, y=15, z=557} class_2338{x=-229, y=14, z=519}
+[00:46:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-237, y=16, z=500} class_2338{x=-234, y=15, z=503}
+[00:46:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-237, y=16, z=500} class_2338{x=-232, y=15, z=501}
+[00:46:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-236, y=16, z=503} class_2338{x=-236, y=17, z=503}
+[00:46:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-236, y=16, z=503} class_2338{x=-236, y=17, z=503}
+[00:46:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-236, y=16, z=503} class_2338{x=-236, y=17, z=503}
+[00:46:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-254, y=17, z=500} class_2338{x=-255, y=16, z=500}
+[00:46:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-254, y=17, z=500} class_2338{x=-255, y=16, z=500}
+[00:46:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19341ms or 386 ticks behind
+[00:46:44] [Server thread/INFO]: [Not Secure] <boidoxx> holaaa t extrañe
+[00:47:01] [Server thread/INFO]: [Not Secure] <ImnotCarv> JLDASDJKASJDKAS
+[00:47:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17523ms or 350 ticks behind
+[00:47:28] [Server thread/INFO]: [Not Secure] <ImnotCarv> JDKSJDKSAJDKSJDKJ
+[00:47:29] [Server thread/INFO]: [Not Secure] <ImnotCarv> QUE HACIAA
+[00:47:41] [Server thread/INFO]: [Not Secure] <ImnotCarv> M ACABA DE ENCONTRAR ESTE EN EL NETHER AHORA
+[00:47:41] [Server thread/INFO]: [Not Secure] <boidoxx> no por nada se puso a revisar donde vivias
+[00:47:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20771ms or 415 ticks behind
+[00:48:05] [Server thread/WARN]: Dudas19 moved too quickly! 10.096560401200577,0.0,0.10703590342978941
+[00:48:17] [Server thread/INFO]: [Not Secure] <ImnotCarv> DIOSS ODIO LA NETHERITE
+[00:48:20] [Server thread/INFO]: [Not Secure] <ImnotCarv> NO ECNUENTROOO2323
+[00:48:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22140ms or 442 ticks behind
+[00:48:38] [Server thread/INFO]: boidoxx lost connection: Disconnected
+[00:48:38] [Server thread/INFO]: boidoxx left the game
+[00:48:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-230, y=11, z=677} class_2338{x=-230, y=12, z=677}
+[00:48:51] [Server thread/INFO]: boidoxx[/10.146.226.20:63602] logged in with entity id 209936 at (-178.69999998807907, 200.0, 346.07858201396425)
+[00:48:51] [Server thread/INFO]: boidoxx joined the game
+[00:48:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22988ms or 459 ticks behind
+[00:49:00] [Server thread/INFO]: [Not Secure] <boidoxx> full desactualizada
+[00:49:00] [Server thread/INFO]: [Not Secure] <ImnotCarv> BRO MINECRAFT ESCUCHO MIS PLEGARIASS
+[00:49:12] [Server thread/INFO]: [Not Secure] <ImnotCarv> 67
+[00:49:18] [Server thread/INFO]: [Not Secure] <boidoxx> 28
+[00:49:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20003ms or 400 ticks behind
+[00:49:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-198, y=15, z=479} class_2338{x=-229, y=15, z=495}
+[00:49:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-198, y=15, z=479} class_2338{x=-228, y=15, z=495}
+[00:49:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-198, y=15, z=479} class_2338{x=-228, y=15, z=496}
+[00:49:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-228, y=15, z=495} class_2338{x=-227, y=15, z=495}
+[00:49:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-228, y=15, z=496} class_2338{x=-227, y=15, z=496}
+[00:49:49] [Server thread/INFO]: [Not Secure] <boidoxx> si
+[00:49:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-227, y=15, z=496} class_2338{x=-225, y=15, z=496}
+[00:49:59] [Server thread/INFO]: [Not Secure] <boidoxx> ?
+[00:50:00] [Server thread/INFO]: [Not Secure] <boidoxx> ONCE?
+[00:50:09] [Server thread/INFO]: Dudas19 lost connection: Timed out
+[00:50:09] [Server thread/INFO]: Dudas19 left the game
+[00:50:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21780ms or 435 ticks behind
+[00:50:11] [Server thread/INFO]: [Not Secure] <boidoxx> tranqui tranqui
+[00:50:30] [Server thread/INFO]: Dudas19[/10.146.226.162:53668] logged in with entity id 212247 at (-216.7293871240139, 15.0, 496.16561185345546)
+[00:50:30] [Server thread/INFO]: Dudas19 joined the game
+[00:50:39] [Server thread/INFO]: [Not Secure] <boidoxx> me voy en 10 igual jeje
+[00:50:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17164ms or 343 ticks behind
+[00:50:49] [Server thread/INFO]: [Not Secure] <boidoxx> a la cama
+[00:50:51] [Server thread/INFO]: [Not Secure] <boidoxx> Y A ESTUDIAR
+[00:50:59] [Server thread/INFO]: [Not Secure] <boidoxx> ODIO ESTUDIAR PERO
+[00:51:00] [Server thread/INFO]: [Not Secure] <boidoxx> ES LA VIDA
+[00:51:14] [Server thread/INFO]: [Dudas19: Triggered [Mode] (set value to 1)]
+[00:51:15] [c2me-worker-2/WARN]: Empty or non-existent pool: nova_structures:hamlet/jockey
+[00:51:17] [Server thread/INFO]: [Dudas19: Triggered [Ask] (set value to 6)]
+[00:51:20] [Server thread/INFO]: [fideosxdu: Triggered [Accept] (set value to 3)]
+[00:51:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 26413ms or 528 ticks behind
+[00:51:24] [Server thread/INFO]: [fideosxdu: Triggered [Mode] (set value to 1)]
+[00:51:26] [Server thread/INFO]: [fideosxdu: Triggered [Ask] (set value to 3)]
+[00:51:31] [Server thread/INFO]: [fideosxdu: Triggered [Mode] (set value to 4)]
+[00:51:32] [Server thread/INFO]: [Not Secure] <ImnotCarv> qur
+[00:51:34] [Server thread/INFO]: [Not Secure] <ImnotCarv> QUE
+[00:51:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-229, y=11, z=757} class_2338{x=-230, y=11, z=756}
+[00:51:41] [Server thread/INFO]: [Not Secure] <boidoxx> claro
+[00:51:42] [Server thread/INFO]: [Not Secure] <ImnotCarv> BOI HDPT
+[00:51:46] [Server thread/INFO]: [Not Secure] <boidoxx> yo soy una pieza clave para el server..
+[00:51:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14398ms or 287 ticks behind
+[00:51:54] [Server thread/INFO]: [Not Secure] <ImnotCarv> si yo no juego nadie juega aaahhh server
+[00:51:58] [Server thread/INFO]: [Not Secure] <boidoxx> XDDDD
+[00:52:01] [Server thread/INFO]: [Not Secure] <boidoxx> CALLAO
+[00:52:04] [Server thread/INFO]: [Not Secure] <ImnotCarv> JDASKDJASKDJSA
+[00:52:05] [Server thread/INFO]: [Not Secure] <boidoxx> carvoso
+[00:52:10] [Server thread/INFO]: [Not Secure] <ImnotCarv> Q ERS CARVOSO
+[00:52:14] [Server thread/INFO]: [Not Secure] <boidoxx> EH..
+[00:52:19] [Server thread/INFO]: [Not Secure] <boidoxx> carvtonto
+[00:52:21] [Server thread/INFO]: [Not Secure] <boidoxx> carvonto
+[00:52:23] [Server thread/INFO]: [Not Secure] <ImnotCarv> M LO TOMARE COMOINSULTO
+[00:52:24] [Server thread/INFO]: [Not Secure] <boidoxx> tontcarv
+[00:52:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16879ms or 337 ticks behind
+[00:52:26] [Server thread/INFO]: [Not Secure] <ImnotCarv> OKEI BOI
+[00:52:28] [Server thread/INFO]: [Not Secure] <ImnotCarv> OKEI
+[00:52:30] [Server thread/INFO]: [Not Secure] <boidoxx> EH..
+[00:52:33] [Server thread/INFO]: [Not Secure] <boidoxx> A VER..
+[00:52:33] [Server thread/INFO]: [Not Secure] <ImnotCarv> asi estamos brochacho...
+[00:52:35] [Server thread/INFO]: [Not Secure] <boidoxx> SEGUN CALCULOS
+[00:52:39] [Server thread/INFO]: [Not Secure] <boidoxx> EL SERVER DURA MAS TIEMPO AHORA
+[00:52:40] [Server thread/INFO]: [Not Secure] <boidoxx> solo que.
+[00:52:41] [Server thread/INFO]: [Not Secure] <boidoxx> jeje
+[00:52:42] [Server thread/INFO]: [Not Secure] <boidoxx> jeje
+[00:52:43] [Server thread/INFO]: [Not Secure] <boidoxx> jee
+[00:52:49] [Server thread/INFO]: [Not Secure] <boidoxx> la cuota diaria del server se va a acabar
+[00:52:51] [Server thread/INFO]: [Not Secure] <boidoxx> en nadita
+[00:52:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18783ms or 375 ticks behind
+[00:53:09] [Server thread/INFO]: [Not Secure] <boidoxx> TODO BIEN CON EL SERVER?
+[00:53:11] [Server thread/INFO]: [Not Secure] <boidoxx> TENGO 9 TPS
+[00:53:24] [Server thread/INFO]: [Not Secure] <boidoxx> A TODOS LES VA BIEN?
+[00:53:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17722ms or 354 ticks behind
+[00:53:32] [Server thread/INFO]: [Not Secure] <boidoxx> ah bueno
+[00:53:34] [Server thread/INFO]: [Not Secure] <boidoxx> ok me alegro
+[00:53:39] [Server thread/INFO]: [Not Secure] <boidoxx> ok
+[00:53:46] [Server thread/INFO]: [boidoxx: Kicked Dudas19: Kicked by an operator]
+[00:53:46] [Server thread/INFO]: Dudas19 lost connection: Kicked by an operator
+[00:53:46] [Server thread/INFO]: Dudas19 left the game
+[00:53:55] [Server thread/INFO]: [Not Secure] <boidoxx> PROBLEMA RESUELTO
+[00:53:55] [Server thread/INFO]: Dudas19[/10.146.226.162:53712] logged in with entity id 215888 at (-178.34054972962892, 200.0, 349.76249998807907)
+[00:53:55] [Server thread/INFO]: Dudas19 joined the game
+[00:53:58] [Server thread/INFO]: lumidezz has made the advancement [Into Fire]
+[00:54:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17614ms or 352 ticks behind
+[00:54:11] [Server thread/INFO]: [Not Secure] <boidoxx> dijeron q tu eras el problema dudas
+[00:54:12] [Server thread/INFO]: [Not Secure] <boidoxx> como t sientes
+[00:54:15] [Server thread/INFO]: [Not Secure] <boidoxx> como t sientas
+[00:54:25] [Server thread/INFO]: [Not Secure] <ImnotCarv> s dio cuebnta
+[00:54:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-175, y=14, z=722} class_2338{x=-176, y=14, z=721}
+[00:54:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18686ms or 373 ticks behind
+[00:54:42] [Server thread/INFO]: [Not Secure] <ImnotCarv> DSJAKDJSKDJ
+[00:55:03] [Server thread/INFO]: [Not Secure] <ImnotCarv> LOS ARMADILLOS ESTAN ENELLOOOOOOOOOOOOOOO
+[00:55:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18029ms or 360 ticks behind
+[00:55:16] [Server thread/INFO]: [Not Secure] <lumidezz> CUANTO TARDAN EN FORNICAR LOS ARMADIKLLOS
+[00:55:30] [Server thread/INFO]: [Not Secure] <ImnotCarv> MUCHO...
+[00:55:34] [Server thread/INFO]: [Not Secure] <ImnotCarv> SON INSOPORTABKESS
+[00:55:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19200ms or 384 ticks behind
+[00:56:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19859ms or 397 ticks behind
+[00:56:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21371ms or 427 ticks behind
+[00:57:27] [Server thread/WARN]: fideosxdu moved too quickly! -0.37992489925673567,-10.244365185051791,-0.031514983807284125
+[00:57:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21677ms or 433 ticks behind
+[00:57:40] [Server thread/INFO]: [Not Secure] <boidoxx> YO?
+[00:57:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-57, y=14, z=725} class_2338{x=-56, y=13, z=725}
+[00:57:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-56, y=16, z=725} class_2338{x=-55, y=15, z=725}
+[00:57:43] [Server thread/INFO]: [Not Secure] <boidoxx> YO?
+[00:57:46] [Server thread/INFO]: [Not Secure] <boidoxx> YO?
+[00:57:48] [Server thread/INFO]: [Not Secure] <boidoxx> fue lumi
+[00:58:00] [Server thread/INFO]: [Not Secure] <boidoxx> MI NIÑO
+[00:58:02] [Server thread/WARN]: fideosxdu moved too quickly! 0.04819569596355677,-10.468794901484145,-0.031050195803260294
+[00:58:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18844ms or 376 ticks behind
+[00:58:32] [Server thread/INFO]: [Not Secure] <boidoxx> EL SERVER ANDA EN SU MEJOR MOMENTO
+[00:58:33] [Server thread/INFO]: [Not Secure] <boidoxx> 10 TPS
+[00:58:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13056ms or 261 ticks behind
+[00:58:42] [Server thread/INFO]: lumidezz lost connection: Disconnected
+[00:58:42] [Server thread/INFO]: lumidezz left the game
+[00:58:53] [Server thread/INFO]: lumidezz[/10.146.226.35:56082] logged in with entity id 221038 at (-120.5732380785267, 97.0, 123.00194454012858)
+[00:58:53] [Server thread/INFO]: lumidezz joined the game
+[00:59:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13184ms or 263 ticks behind
+[00:59:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12100ms or 242 ticks behind
+[00:59:33] [Server thread/INFO]: [Not Secure] <boidoxx> como dije
+[00:59:34] [Server thread/INFO]: [Not Secure] <boidoxx> en su mejor momento
+[00:59:49] [Server thread/INFO]: [Not Secure] <boidoxx> ES SARCASMO PEDAZO D TONTO
+[00:59:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12284ms or 245 ticks behind
+[01:00:00] [Server thread/INFO]: [Not Secure] <boidoxx> jeje
+[01:00:05] [Server thread/INFO]: [Not Secure] <boidoxx> todos me odiaban..
+[01:00:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13034ms or 260 ticks behind
+[01:00:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15951ms or 319 ticks behind
+[01:01:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14203ms or 284 ticks behind
+[01:01:44] [Server thread/INFO]: [Not Secure] <boidoxx> OK MAÑANA SE HACE
+[01:01:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12772ms or 255 ticks behind
+[01:01:57] [Server thread/INFO]: [Not Secure] <boidoxx> DIDAS
+[01:01:58] [Server thread/INFO]: LeashPlayers$attach
+[01:01:59] [Server thread/INFO]: LeashPlayers$detach
+[01:01:59] [Server thread/INFO]: [Not Secure] <boidoxx> hol
+[01:02:06] [Server thread/INFO]: LeashPlayers$attach
+[01:02:13] [Server thread/INFO]: [Not Secure] <boidoxx> hol
+[01:02:16] [Server thread/INFO]: LeashPlayers$detach
+[01:02:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14141ms or 282 ticks behind
+[01:02:38] [Server thread/INFO]: [Not Secure] <boidoxx> bro tengo habmre
+[01:02:40] [Server thread/INFO]: LeashPlayers$attach
+[01:02:43] [Server thread/INFO]: LeashPlayers$attach
+[01:02:49] [Server thread/INFO]: LeashPlayers$detach
+[01:02:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14358ms or 287 ticks behind
+[01:02:52] [Server thread/INFO]: LeashPlayers$detach
+[01:02:56] [Server thread/INFO]: LeashPlayers$attach
+[01:02:56] [Server thread/INFO]: LeashPlayers$attach
+[01:02:56] [Server thread/INFO]: LeashPlayers$detach
+[01:03:01] [Server thread/INFO]: LeashPlayers$detach
+[01:03:03] [Server thread/INFO]: LeashPlayers$attach
+[01:03:07] [Server thread/INFO]: LeashPlayers$detach
+[01:03:10] [Server thread/INFO]: [Not Secure] <ImnotCarv> iwishihaveafreebagofchiiiiipsssssssssssssss
+[01:03:13] [Server thread/INFO]: LeashPlayers$attach
+[01:03:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14412ms or 288 ticks behind
+[01:03:21] [Server thread/INFO]: LeashPlayers$attach
+[01:03:31] [Server thread/INFO]: LeashPlayers$attach
+[01:03:35] [Server thread/INFO]: LeashPlayers$detach
+[01:03:42] [Server thread/INFO]: LeashPlayers$detach
+[01:03:45] [Server thread/INFO]: LeashPlayers$attach
+[01:03:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15728ms or 314 ticks behind
+[01:03:58] [Server thread/INFO]: [Not Secure] <boidoxx> VA BIEN EL SERVER
+[01:04:05] [Server thread/INFO]: [Not Secure] <boidoxx> boeee yo tuve educacion fisica hoy
+[01:04:09] [Server thread/INFO]: [Not Secure] <boidoxx> y d pura suerte no me cai
+[01:04:11] [Server thread/INFO]: [Not Secure] <boidoxx> jeje
+[01:04:21] [Server thread/INFO]: [Not Secure] <boidoxx> EL HIJO DE PUTA NOS MANDO A HACER 20 VUELTAS
+[01:04:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15805ms or 316 ticks behind
+[01:04:23] [Server thread/INFO]: [Not Secure] <boidoxx> LO ODIO
+[01:04:26] [Server thread/INFO]: [Not Secure] <boidoxx> ah
+[01:04:27] [Server thread/INFO]: [Not Secure] <boidoxx> mira
+[01:04:28] [Server thread/INFO]: LeashPlayers$detach
+[01:04:29] [Server thread/INFO]: [Not Secure] <boidoxx> yo tambien
+[01:04:31] [Server thread/INFO]: [Not Secure] <boidoxx> lo odio
+[01:04:32] [Server thread/INFO]: [Not Secure] <boidoxx> lo detesto
+[01:04:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=230, y=12, z=728} class_2338{x=232, y=13, z=725}
+[01:04:40] [Server thread/INFO]: LeashPlayers$attach
+[01:04:41] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/229983, l='ServerLevel[world]', x=350.73, y=41.00, z=681.67] died: Headless Warrior was slain by Piglin Brute
+[01:04:48] [Server thread/INFO]: [Not Secure] <boidoxx> uy el basket es buenisimo
+[01:04:48] [Server thread/INFO]: LeashPlayers$detach
+[01:04:52] [Server thread/INFO]: [Not Secure] <boidoxx> yo justo en vacas me meto a hacer eso
+[01:04:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15951ms or 319 ticks behind
+[01:04:55] [Server thread/INFO]: [Not Secure] <ImnotCarv> yo le tengo miedo al voley
+[01:04:59] [Server thread/INFO]: [Not Secure] <boidoxx> VACAIONES
+[01:05:01] [Server thread/INFO]: [Not Secure] <boidoxx> CACIONES
+[01:05:02] [Server thread/INFO]: [Not Secure] <ImnotCarv> m hize un esquince en lamanitoporeso
+[01:05:03] [Server thread/INFO]: [Not Secure] <boidoxx> VACACIONES
+[01:05:04] [Server thread/INFO]: LeashPlayers$attach
+[01:05:04] [Server thread/INFO]: LeashPlayers$detach
+[01:05:07] [Server thread/INFO]: LeashPlayers$detach
+[01:05:22] [Server thread/INFO]: boidoxx lost connection: Disconnected
+[01:05:22] [Server thread/INFO]: boidoxx left the game
+[01:05:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15530ms or 310 ticks behind
+[01:05:29] [Server thread/WARN]: fideosxdu moved too quickly! -4.657742307295933,6.390749667654632,15.581469336148924
+[01:05:32] [Server thread/WARN]: fideosxdu moved too quickly! 2.539835237643757,5.307437952531586,16.36448105824835
+[01:05:44] [Server thread/WARN]: fideosxdu moved too quickly! 17.59904530403118,-4.023061397177713,-0.13539756142975534
+[01:05:48] [Server thread/WARN]: fideosxdu moved too quickly! -2.3231882044370735,1.2523671738437372,-17.733110022651545
+[01:05:52] [Server thread/WARN]: fideosxdu moved too quickly! -15.685382221970372,0.8231124623782193,8.456183219347508
+[01:05:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13838ms or 276 ticks behind
+[01:05:54] [Server thread/WARN]: fideosxdu moved too quickly! 1.7391551252659383,15.514268953850532,-9.227968916992353
+[01:05:57] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/230782, l='ServerLevel[world]', x=355.17, y=49.50, z=678.46] died: Headless Warrior was shot by Piglin
+[01:05:58] [Server thread/WARN]: fideosxdu moved too quickly! -11.846138797666981,-6.094578901994154,-12.402613877150998
+[01:06:16] [Server thread/WARN]: fideosxdu moved too quickly! -15.713767186013655,7.742875571462349,1.9768221261998633
+[01:06:18] [Server thread/WARN]: fideosxdu moved too quickly! -13.588384948795124,0.3636468772082111,12.130062262318006
+[01:06:20] [Server thread/WARN]: fideosxdu moved too quickly! -9.358279766692135,-2.9976873606822494,16.03987228620491
+[01:06:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13887ms or 277 ticks behind
+[01:06:31] [Server thread/INFO]: [Not Secure] <ImnotCarv> PARAMEFALTAUNPOCO
+[01:06:37] [Server thread/WARN]: fideosxdu moved too quickly! 13.747246265022937,11.6713178340476,1.8282741295215033
+[01:06:38] [Server thread/INFO]: [Not Secure] <ImnotCarv> TRNGO
+[01:06:40] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/232624, l='ServerLevel[world]', x=337.30, y=36.00, z=631.15] died: Headless Warrior was shot by Piglin
+[01:06:40] [Server thread/INFO]: [Not Secure] <ImnotCarv> TENGO
+[01:06:41] [Server thread/INFO]: [Not Secure] <ImnotCarv> 14
+[01:06:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8785ms or 175 ticks behind
+[01:06:49] [Server thread/INFO]: [Not Secure] <ImnotCarv> RETRASADO
+[01:06:52] [Server thread/INFO]: [Not Secure] <ImnotCarv> 14 ANCIENT
+[01:06:59] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/233728, l='ServerLevel[world]', x=397.90, y=48.00, z=682.49] died: Headless Warrior was slain by Piglin Brute
+[01:07:13] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/233727, l='ServerLevel[world]', x=399.83, y=48.00, z=677.97] died: Headless Warrior was slain by Piglin Brute
+[01:07:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17064ms or 341 ticks behind
+[01:07:19] [Server thread/INFO]: [Not Secure] <ImnotCarv> NO
+[01:07:19] [Server thread/INFO]: [Not Secure] <ImnotCarv> NO
+[01:07:28] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/234064, l='ServerLevel[world]', x=378.86, y=41.00, z=671.51] died: Headless Warrior was slain by Piglin
+[01:07:32] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/233872, l='ServerLevel[world]', x=393.04, y=49.00, z=638.41] died: Headless Warrior was shot by Piglin
+[01:07:38] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/231277, l='ServerLevel[world]', x=345.34, y=31.00, z=636.53] died: Headless Warrior was slain by Piglin
+[01:07:43] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/233106, l='ServerLevel[world]', x=393.44, y=41.00, z=639.44] died: Headless Warrior was shot by Piglin
+[01:07:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15716ms or 314 ticks behind
+[01:08:04] [Server thread/INFO]: [Not Secure] <ImnotCarv> JE
+[01:08:05] [Server thread/INFO]: [Not Secure] <ImnotCarv> JEJEJ
+[01:08:06] [Server thread/INFO]: [Not Secure] <ImnotCarv> JEJEJEJEJEJJ
+[01:08:08] [Server thread/INFO]: [Not Secure] <ImnotCarv> OKEI
+[01:08:10] [Server thread/INFO]: [Not Secure] <ImnotCarv> CHIKOS
+[01:08:12] [Server thread/INFO]: [ImnotCarv: Triggered [Mode] (set value to 1)]
+[01:08:14] [Server thread/INFO]: [ImnotCarv: Triggered [Ask] (set value to 3)]
+[01:08:18] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/234932, l='ServerLevel[world]', x=386.26, y=31.00, z=634.32] died: Headless Warrior was slain by Piglin Brute
+[01:08:19] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/234209, l='ServerLevel[world]', x=392.08, y=49.00, z=637.48] died: Headless Warrior was shot by Piglin
+[01:08:21] [Server thread/INFO]: [Dudas19: Triggered [Accept] (set value to 4)]
+[01:08:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23158ms or 463 ticks behind
+[01:08:26] [Server thread/INFO]: Villager class_1646['Librarian'/151105, l='ServerLevel[world]', x=-156.22, y=92.19, z=136.13] died, message: 'Librarian was slain by ImnotCarv'
+[01:08:30] [Server thread/INFO]: [Not Secure] <ImnotCarv> .t
+[01:08:31] [Server thread/INFO]: [Not Secure] <ImnotCarv> .
+[01:08:32] [Server thread/INFO]: [Not Secure] <ImnotCarv> .
+[01:08:33] [Server thread/INFO]: [Not Secure] <ImnotCarv> .
+[01:08:33] [Server thread/INFO]: [Not Secure] <ImnotCarv> .
+[01:08:34] [Server thread/INFO]: [Not Secure] <ImnotCarv> .
+[01:08:34] [Server thread/INFO]: [Not Secure] <ImnotCarv> .
+[01:08:35] [Server thread/INFO]: [Not Secure] <ImnotCarv> .
+[01:08:36] [Server thread/INFO]: [Not Secure] <ImnotCarv> .
+[01:08:37] [Server thread/INFO]: [Not Secure] <ImnotCarv> .
+[01:08:37] [Server thread/INFO]: [Not Secure] <ImnotCarv> .
+[01:08:38] [Server thread/INFO]: [Not Secure] <ImnotCarv> .
+[01:08:39] [Server thread/INFO]: [Not Secure] <ImnotCarv> .
+[01:08:39] [Server thread/INFO]: [Not Secure] <ImnotCarv> .
+[01:08:40] [Server thread/INFO]: [Not Secure] <ImnotCarv> .
+[01:08:40] [Server thread/INFO]: [Not Secure] <ImnotCarv> .
+[01:08:41] [Server thread/INFO]: [Not Secure] <ImnotCarv> .
+[01:08:42] [Server thread/INFO]: [Not Secure] <ImnotCarv> .
+[01:08:43] [Server thread/INFO]: [Not Secure] <ImnotCarv> .
+[01:08:43] [Server thread/INFO]: [Not Secure] <ImnotCarv> .
+[01:08:44] [Server thread/INFO]: [Not Secure] <ImnotCarv> .
+[01:08:44] [Server thread/INFO]: ImnotCarv lost connection: Kicked for spamming
+[01:08:44] [Server thread/INFO]: ImnotCarv left the game
+[01:08:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3623ms or 72 ticks behind
+[01:08:53] [Server thread/INFO]: ImnotCarv[/10.146.226.250:58912] logged in with entity id 235069 at (-162.04801497480003, 91.0, 131.68511474786342)

@@ -2433,7 +2433,8 @@
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:nether_wastes": "2026-04-19 01:54:39 +0000",
-      "minecraft:basalt_deltas": "2026-04-23 01:20:03 +0000"
+      "minecraft:basalt_deltas": "2026-04-23 01:20:03 +0000",
+      "minecraft:warped_forest": "2026-05-28 00:41:31 +0000"
     },
     "done": false
   },
@@ -4489,115 +4490,19 @@
     },
     "done": true
   },
-  "vanilla_refresh:player/hurt": {
-    "criteria": {
-      "requirement": "2026-05-25 06:33:12 +0000"
-    },
-    "done": true
-  },
   "minecraft:adventure/kill_all_bosses": {
     "criteria": {
       "minecraft:goat": "2026-05-25 03:31:54 +0000"
     },
     "done": false
   },
-  "incendium:technical/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2026-05-25 06:36:29 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2026-05-25 06:36:29 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2026-05-25 06:36:29 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "log_spam_fixer": "2026-05-25 06:36:29 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2026-05-25 06:36:29 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2026-05-25 06:36:29 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2026-05-25 06:36:29 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2026-05-25 06:36:29 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2026-05-25 06:36:29 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2026-05-25 06:36:29 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2026-05-25 06:36:29 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2026-05-25 06:36:29 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/misc/magenta_dye_from_lilac": {
-    "criteria": {
-      "has_lilac": "2026-05-25 05:28:02 +0000"
-    },
-    "done": true
-  },
-  "vanilla_refresh:biome/ice_spikes": {
-    "criteria": {
-      "requirement": "2026-05-25 05:15:25 +0000"
-    },
-    "done": true
-  },
-  "village_hero:adventure/thank_you_very_much": {
-    "criteria": {
-      "is_hero": "2026-05-25 06:35:18 +0000"
-    },
-    "done": false
-  },
-  "vanilla_refresh:biome/snowy_plains": {
-    "criteria": {
-      "requirement": "2026-05-25 05:23:12 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/orange_dye_from_torchflower": {
+    "criteria": {
+      "has_torchflower": "2026-05-25 05:05:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_torchflower": {
     "criteria": {
       "has_torchflower": "2026-05-25 05:05:52 +0000"
     },
@@ -4615,33 +4520,9 @@
     },
     "done": true
   },
-  "minecraft:adventure/voluntary_exile": {
-    "criteria": {
-      "voluntary_exile": "2026-05-25 06:28:54 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/clay": {
-    "criteria": {
-      "has_clay_ball": "2026-05-25 05:49:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/totem_of_undying": {
-    "criteria": {
-      "used_totem": "2026-05-25 06:33:12 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/cut_copper": {
     "criteria": {
       "has_copper_block": "2026-05-25 05:11:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/hero_of_the_village": {
-    "criteria": {
-      "hero_of_the_village": "2026-05-25 06:35:18 +0000"
     },
     "done": true
   },
@@ -4657,12 +4538,6 @@
     },
     "done": true
   },
-  "vanilla_refresh:biome/blooming_biosphere/snowy_cherry_grove": {
-    "criteria": {
-      "requirement": "2026-05-25 05:22:53 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/waxed_copper_block_from_honeycomb": {
     "criteria": {
       "has_copper_block": "2026-05-25 05:11:18 +0000"
@@ -4672,12 +4547,6 @@
   "minecraft:recipes/misc/copper_ingot": {
     "criteria": {
       "has_copper_block": "2026-05-25 05:11:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/suspicious_stew_from_torchflower": {
-    "criteria": {
-      "has_torchflower": "2026-05-25 05:05:52 +0000"
     },
     "done": true
   },
@@ -4693,9 +4562,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cut_copper_slab_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2026-05-25 05:11:18 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/ice_spikes": {
+    "criteria": {
+      "requirement": "2026-05-25 05:15:25 +0000"
+    },
+    "done": true
+  },
   "vanilla_refresh:biome/terralith/shrublands": {
     "criteria": {
       "requirement": "2026-05-25 05:15:38 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/blooming_biosphere/snowy_cherry_grove": {
+    "criteria": {
+      "requirement": "2026-05-25 05:22:53 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/snowy_plains": {
+    "criteria": {
+      "requirement": "2026-05-25 05:23:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_lilac": {
+    "criteria": {
+      "has_lilac": "2026-05-25 05:28:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2026-05-25 05:49:27 +0000"
     },
     "done": true
   },
@@ -4705,9 +4610,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cut_copper_slab_from_copper_block_stonecutting": {
+  "minecraft:adventure/voluntary_exile": {
     "criteria": {
-      "has_copper_block": "2026-05-25 05:11:18 +0000"
+      "voluntary_exile": "2026-05-25 06:28:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2026-05-25 06:33:12 +0000"
+    },
+    "done": true
+  },
+  "village_hero:adventure/thank_you_very_much": {
+    "criteria": {
+      "is_hero": "2026-05-25 06:35:18 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2026-05-25 06:35:18 +0000"
     },
     "done": true
   },
@@ -4716,6 +4639,91 @@
       "is_hero": "2026-05-25 06:35:18 +0000"
     },
     "done": false
+  },
+  "vanilla_refresh:biome/nether/warped_forest": {
+    "criteria": {
+      "requirement": "2026-05-28 00:41:31 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-28 01:01:44 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-28 01:01:44 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-28 01:01:44 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "requirement": "2026-05-28 01:02:01 +0000",
+      "log_spam_fixer": "2026-05-28 01:01:44 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-28 01:01:44 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-28 01:01:44 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-28 01:01:44 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-28 01:01:44 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-28 01:01:44 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-28 01:01:44 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-28 01:01:44 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2026-05-28 01:01:44 +0000"
+    },
+    "done": false
+  },
+  "vanilla_refresh:player/hurt": {
+    "criteria": {
+      "requirement": "2026-05-28 01:02:01 +0000"
+    },
+    "done": true
   },
   "DataVersion": 4671
 }
